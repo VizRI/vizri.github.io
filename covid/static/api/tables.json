@@ -314,5 +314,34 @@
                 "% Beds Occupied"
             ]
         }
+    },
+    "provider_staff_vac": {
+        "dataframe": {
+            "source": "staff_vaccination",
+            "cols": [
+                "provider_name",
+                "pct_fully_vac",
+                "pct_part_vac",
+                "pct_fully_vac_change"
+            ],
+            "val_cols": [
+            ],
+            "pct_cols": [
+                "pct_fully_vac",
+                "pct_part_vac",
+                "pct_fully_vac_change"
+            ]
+        },
+        "page_info": {
+            "table_title": "Nursing Home Staff Vaccination",
+            "table_id": "nursingHomeStaffVac",
+            "source": "sample test source",
+            "table_headers": [
+                "Provider",
+                "Fully Vaccinated",
+                "Partially Vaccinated",
+                "Fully Vac Change"
+            ]
+        }
     }
 }
