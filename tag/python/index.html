@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>python - I Viz RI</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load JavaScript Libraries -->
+    <script src="../../theme/js/jquery.min.js"></script>
+    <script src="../../theme/js/bootstrap.min.js"></script>
+    <script src="../../theme/js/respond.min.js"></script>
+
+
+    <link href="../../images/favicon.png" rel="icon">
+
+
+    <meta name="author" content="SmirkyGraphs" />
+    <meta name="keywords" content="python" />
+
+    <!-- Open Graph tags -->
+        <meta property="og:site_name" content="I Viz RI" />
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="I Viz RI"/>
+        <meta property="og:url" content="../.."/>
+        <meta property="og:description" content="I Viz RI"/>
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../../theme/css/bootstrap.cosmo.min.css" type="text/css"/>
+    <link href="../../theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../../theme/css/pygments/autumn.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../theme/css/style.css" type="text/css"/>
+        <link href="../../theme/css/custom.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../" class="navbar-brand">
+<img src="../../images/logo.png" width="32"/> I Viz RI            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li >
+                            <a href="../../category/blog/index">Blog</a>
+                        </li>
+                        <li >
+                            <a href="../../category/map/index">Map</a>
+                        </li>
+                        <li >
+                            <a href="../../category/notebooks/index">Notebooks</a>
+                        </li>
+                        <li >
+                            <a href="../../category/tutorial/index">Tutorial</a>
+                        </li>
+                        <li >
+                            <a href="../../category/viz/index">Viz</a>
+                        </li>
+                <li><a href="https://ivizri.com/covid/">COVID-19</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+            <article>
+                <h2 class="post-title"><a href="../../posts/2020/04/automating-a-tableau-public-dashboard/">Automating a Tableau Public Dashboard</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2020-04-28T08:06:00-04:00"> Tue 28 April 2020</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/tutorial/index">Tutorial</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/tableau/">tableau</a>
+        /
+	<a href="../../tag/python/">python</a>
+        /
+	<a href="../../tag/automation/">automation</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>Manually updating Tableau dashboards isn't exactly hard. First you open up Tableau, next you open the workbook you wish to update, lastly you click on data in the toolbar, hover the dataset you wish to update and click refresh. Not hard, but doing it daily, can begin to be a pain and feel like a chore. Luckily! Tableau Public has google sheets as a datasource and allows you to keep the dashboard synced with the sheet daily updates. This will show you how to add a few lines to your pandas workflow to upload your dataframe to google sheets automatically.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2020/04/automating-a-tableau-public-dashboard/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2019/09/creating-trips-from-gbfs/">Creating Trips from gbfs with AWS</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2019-09-16T07:09:00-04:00"> Mon 16 September 2019</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/tutorial/index">Tutorial</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/aws/">AWS</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>Providence's JUMP Bike program provides location data of every bike currently available through the <a href="https://pvd.jumpbikes.com/opendata/gbfs.json">gbfs data feed</a>. Using Python and AWS you can <em>sorta</em> create trip data of the bikes. While the gbfs data is directly from the company, it's not ment to be used for trip data. However currently it is the only data provided for Providence and there is no official trip information publicly available.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2019/09/creating-trips-from-gbfs/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2019/07/ri-legislature-floor-votes/">RI House & Senate Floor Votes</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2019-07-26T08:00:00-04:00"> Fri 26 July 2019</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/notebooks/index">Notebooks</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/politics/">Politics</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>This notebook will take a look at how many votes occur each year, when the session ends and how many votes occur in the final days of a session compared to the year as a whole for both the House and Senate.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2019/07/ri-legislature-floor-votes/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2019/07/ri-bills-by-party/">RI Bills by Sponsors Party and Outcome</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2019-07-21T14:02:00-04:00"> Sun 21 July 2019</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/notebooks/index">Notebooks</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/politics/">Politics</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>Its no secret that Rhode Island's legislature leans overwhelmingly in the favor of Democrats. However, I wanted to see just how many bills introduced by Republicans go on to pass both chambers and become law. Also, how often the parties work together on Bi-Partisan bills and how all of these metrics have changed over the years since 2007.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2019/07/ri-bills-by-party/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2019/06/ri-bills-held-for-further-study/">RI Bills Held for Further Study</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2019-06-30T09:00:00-04:00"> Sun 30 June 2019</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/notebooks/index">Notebooks</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/politics/">Politics</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>Bills in Rhode Island face a big hurdle, making it out of committee and not being "Held for Further Study". Once a bill is introduced and sent to committee, the first vote it recieves is whether or not it should be "Held for Further Study". A bill held for further study is indefinitely postpone, however can be considered again by the committee.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2019/06/ri-bills-held-for-further-study/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2019/04/fact-checking-ripple-effect/">Fact-Checking The Ripple Effect</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2019-04-08T07:25:00-04:00"> Mon 08 April 2019</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/notebooks/index">Notebooks</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/saftey/">Saftey</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>"The Ripple Effect" is a campaign by RIDOT to highlight the damages caused not only to a drunk driver, but the effects on others due to the poor choices made by a drunk driver. This looks at a few of the metrics stated in the web graphic and checks them against the FARS dataset.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2019/04/fact-checking-ripple-effect/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2017/12/gina-q3/">Gina Donation Q3 2017</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-12-04T14:14:00-05:00"> Mon 04 December 2017</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/notebooks/index">Notebooks</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/politics/">Politics</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>A look at donations made to Gina Raimondo's campaign for Q3 2017.</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2017/12/gina-q3/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2 class="post-title"><a href="../../posts/2017/09/ri-2016-donations/">RI 2016 Presidential Election Donations</a></h2>
+                    <div class="well well-sm">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2017-09-03T18:14:00-04:00"> Sun 03 September 2017</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../category/notebooks/index">Notebooks</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../tag/politics/">Politics</a>
+        /
+	<a href="../../tag/python/">Python</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                <div class="summary"><p>A look at donations for the 2016 Presidential Election</p>
+                    <a class="btn btn-default btn-xs" href="../../posts/2017/09/ri-2016-donations/">more ...</a>
+                </div>
+            </article>
+            <hr/>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://github.com/SmirkyGraphs"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/Smirkygraphs"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                <li class="list-group-item"><a href="https://smirkygraphs.github.io"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> Website</a></li>
+              </ul>
+            </li>
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="../../posts/2020/04/automating-a-tableau-public-dashboard/">
+                            Automating a Tableau Public Dashboard
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../posts/2019/09/creating-trips-from-gbfs/">
+                            Creating Trips from gbfs with AWS
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../posts/2019/07/ri-legislature-floor-votes/">
+                            RI House & Senate Floor Votes
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../posts/2019/07/ri-bills-by-party/">
+                            RI Bills by Sponsors Party and Outcome
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../posts/2019/06/ri-bills-held-for-further-study/">
+                            RI Bills Held for Further Study
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="list-group-item"><a href="../../tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                </ul>
+            </li>
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2020 SmirkyGraphs
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-106762433-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+</body>
+</html>

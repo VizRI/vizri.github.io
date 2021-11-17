@@ -1,0 +1,42 @@
+[
+    {
+        "store": "Store A",
+        "data": [
+            {
+                "section_name": "veggies",
+                "section_num": "301",
+                "items": [
+                    "carrots",
+                    "green beans"
+                ]
+            },
+            {
+                "section_name": "dairy",
+                "section_num": "302",
+                "items": [
+                    "dairy milk",
+                    "almond milk"
+                ]
+            }
+        ]
+    },
+    {
+        "store": "Store B",
+        "data": [
+            {
+                "section_name": "fruit",
+                "section_num": "336",
+                "items": [
+                    "apples",
+                    "oranges"
+                ]
+            },
+            {
+                "section_name": "bread",
+                "items": [
+                    "wheat bread"
+                ]
+            }
+        ]
+    }
+]

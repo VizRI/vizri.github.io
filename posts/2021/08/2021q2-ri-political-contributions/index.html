@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>2021Q2 - RI Political Contributions - I Viz RI</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Load JavaScript Libraries -->
+    <script src="../../../../theme/js/jquery.min.js"></script>
+    <script src="../../../../theme/js/bootstrap.min.js"></script>
+    <script src="../../../../theme/js/respond.min.js"></script>
+
+
+    <link href="../../../../images/favicon.png" rel="icon">
+
+<link rel="canonical" href="../../../../posts/2021/08/2021q2-ri-political-contributions/">
+
+        <meta name="author" content="SmirkyGraphs" />
+        <meta name="keywords" content="politics" />
+        <meta name="description" content="The 2021-Q2 campaign finance data was released earlier this month. Rhode Island politicians pulled in $3,420,440.08 dollars from 11,680 records, more than double the previous quarter&#39;s amount." />
+
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="../../../../theme/css/bootstrap.cosmo.min.css" type="text/css"/>
+    <link href="../../../../theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="../../../../theme/css/pygments/autumn.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../theme/css/style.css" type="text/css"/>
+        <link href="../../../../theme/css/custom.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="../../../../" class="navbar-brand">
+<img src="../../../../images/logo.png" width="32"/> I Viz RI            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="../../../../category/blog/index">Blog</a>
+                        </li>
+                        <li >
+                            <a href="../../../../category/map/index">Map</a>
+                        </li>
+                        <li >
+                            <a href="../../../../category/notebooks/index">Notebooks</a>
+                        </li>
+                        <li >
+                            <a href="../../../../category/tutorial/index">Tutorial</a>
+                        </li>
+                        <li >
+                            <a href="../../../../category/viz/index">Viz</a>
+                        </li>
+                <li><a href="https://ivizri.com/covid/">COVID-19</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../../../../archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1 class="article-title">
+                    <a href="../../../../posts/2021/08/2021q2-ri-political-contributions/"
+                       rel="bookmark"
+                       title="Permalink to 2021Q2 - RI Political Contributions">
+                        2021Q2 - RI Political Contributions
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2021-08-11T06:44:00-04:00"> Wed 11 August 2021</time>
+    </span>
+
+        <span class="label label-default">Category</span>
+        <a href="../../../../category/blog/index">blog</a>
+
+
+<span class="label label-default">Tags</span>
+	<a href="../../../../tag/politics/">politics</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p><link href="https://ivizri.com/theme/css/table.css" rel="stylesheet" type="text/css"></p>
+<hr>
+<p>The 2021-Q2 campaign finance data was released earlier this month. Rhode Island politicians pulled in $3,420,440.08 dollars from 11,680 records, more than double the previous quarter's amount.</p>
+<p><strong>changes:</strong> this time I removed any rows with the "TransType" of Expenditure that are contained in the contribution files. This includes "Repayment of Loan" and "Refund of Contribution" but not "NSF Check". This was done to prevent double counting when later viewing expenditures.</p>
+<p>This time, starting off with a new table, breaking down the full 3.4 million by the Contribution description. Individual donations make up the majority accounting for ~77% of all money raised.</p>
+<table border="0" class="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Amount</th>
+      <th>Percent</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Individual</th>
+      <td>$2,624,364.33</td>
+      <td>77%</td>
+    </tr>
+    <tr>
+      <th>PAC</th>
+      <td>$382,093.45</td>
+      <td>11%</td>
+    </tr>
+    <tr>
+      <th>Loan Proceeds</th>
+      <td>$334,615.87</td>
+      <td>10%</td>
+    </tr>
+    <tr>
+      <th>Party Building - Individual</th>
+      <td>$42,200.00</td>
+      <td>1%</td>
+    </tr>
+    <tr>
+      <th>Party Building - PAC</th>
+      <td>$20,000.00</td>
+      <td>1%</td>
+    </tr>
+    <tr>
+      <th>Interest Received</th>
+      <td>$8,689.01</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <th>In-Kind - Individual</th>
+      <td>$7,760.98</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <th>Refund/Rebate</th>
+      <td>$4,030.23</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <th>In-Kind - PAC</th>
+      <td>$836.21</td>
+      <td>0%</td>
+    </tr>
+    <tr>
+      <th>Aggregate - PAC</th>
+      <td>-$150.00</td>
+      <td>-0%</td>
+    </tr>
+    <tr>
+      <th>NSF Check</th>
+      <td>-$4,000.00</td>
+      <td>-0%</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The remaining tables will only include the top 20 totals for each category. This next table breaks down donations by description source. Speaker Joseph Shekarchi saw a massive boost in Q2, earning the most at $369,127.93 dollars.</p>
+<table border="0" class="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Individual</th>
+      <th>Interest Received</th>
+      <th>Loan Proceeds</th>
+      <th>NSF Check</th>
+      <th>PAC</th>
+      <th>total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>K JOSEPH SHEKARCHI</th>
+      <td>$328,925.00</td>
+      <td>$5,552.93</td>
+      <td>$0.00</td>
+      <td>-$2,550.00</td>
+      <td>$37,200.00</td>
+      <td>$369,127.93</td>
+    </tr>
+    <tr>
+      <th>DANIEL J MCKEE</th>
+      <td>$298,681.89</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>-$1,000.00</td>
+      <td>$23,150.00</td>
+      <td>$320,831.89</td>
+    </tr>
+    <tr>
+      <th>SETH MAGAZINER</th>
+      <td>$260,891.00</td>
+      <td>$1,538.77</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$9,400.00</td>
+      <td>$271,839.22</td>
+    </tr>
+    <tr>
+      <th>MICHAEL A SOLOMON</th>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$250,000.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$250,000.00</td>
+    </tr>
+    <tr>
+      <th>JORGE ELORZA</th>
+      <td>$210,525.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$1,500.00</td>
+      <td>$212,025.00</td>
+    </tr>
+    <tr>
+      <th>NELLIE M GORBEA</th>
+      <td>$204,569.00</td>
+      <td>$429.56</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$750.00</td>
+      <td>$205,748.56</td>
+    </tr>
+    <tr>
+      <th>DOMINICK J RUGGERIO</th>
+      <td>$116,200.00</td>
+      <td>$7.09</td>
+      <td>$0.00</td>
+      <td>-$200.00</td>
+      <td>$34,600.00</td>
+      <td>$150,607.09</td>
+    </tr>
+    <tr>
+      <th>BRETT SMILEY</th>
+      <td>$131,363.96</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$4,200.00</td>
+      <td>$135,563.96</td>
+    </tr>
+    <tr>
+      <th>RYAN WILLIAM PEARSON</th>
+      <td>$20,976.69</td>
+      <td>$0.00</td>
+      <td>$50,000.00</td>
+      <td>$0.00</td>
+      <td>$10,175.00</td>
+      <td>$81,151.69</td>
+    </tr>
+    <tr>
+      <th>MICHAEL J MCCAFFREY</th>
+      <td>$56,050.00</td>
+      <td>$563.64</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$16,700.00</td>
+      <td>$73,313.64</td>
+    </tr>
+    <tr>
+      <th>CHRISTOPHER R BLAZEJEWSKI</th>
+      <td>$40,665.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$16,150.00</td>
+      <td>$56,815.00</td>
+    </tr>
+    <tr>
+      <th>RI DEMOCRATIC STATE COMMITTEE</th>
+      <td>$25,600.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$22,000.00</td>
+      <td>$47,600.00</td>
+    </tr>
+    <tr>
+      <th>GREGG MICHAEL AMORE</th>
+      <td>$34,215.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$8,775.00</td>
+      <td>$42,990.00</td>
+    </tr>
+    <tr>
+      <th>MATT BROWN</th>
+      <td>$22,550.00</td>
+      <td>$0.00</td>
+      <td>$15,000.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$37,550.00</td>
+    </tr>
+    <tr>
+      <th>KENNETH J HOPKINS</th>
+      <td>$35,485.00</td>
+      <td>$1.77</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$150.00</td>
+      <td>$35,636.77</td>
+    </tr>
+    <tr>
+      <th>SABINA MATOS</th>
+      <td>$26,600.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$5,225.00</td>
+      <td>$31,825.00</td>
+    </tr>
+    <tr>
+      <th>PETER F NERONHA</th>
+      <td>$29,810.48</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>-$250.00</td>
+      <td>$2,000.00</td>
+      <td>$31,560.48</td>
+    </tr>
+    <tr>
+      <th>MARYELLEN GOODWIN</th>
+      <td>$21,750.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$9,475.00</td>
+      <td>$31,225.00</td>
+    </tr>
+    <tr>
+      <th>RAYMOND A HULL</th>
+      <td>$26,325.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$4,475.00</td>
+      <td>$30,800.00</td>
+    </tr>
+    <tr>
+      <th>NIRVA REBECCA LAFORTUNE</th>
+      <td>$30,525.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$0.00</td>
+      <td>$30,525.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>While the speaker saw the largest increase from last quarter, many of the house and senate democrat leadership team saw a boost from Q1.</p>
+<table border="0" class="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>2021-Q1</th>
+      <th>2021-Q2</th>
+      <th>difference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>K JOSEPH SHEKARCHI</th>
+      <td>$13,080.51</td>
+      <td>$369,127.93</td>
+      <td>$356,047.42</td>
+    </tr>
+    <tr>
+      <th>DANIEL J MCKEE</th>
+      <td>$284,120.00</td>
+      <td>$320,831.89</td>
+      <td>$36,711.89</td>
+    </tr>
+    <tr>
+      <th>SETH MAGAZINER</th>
+      <td>$301,153.18</td>
+      <td>$271,839.22</td>
+      <td>-$29,313.96</td>
+    </tr>
+    <tr>
+      <th>MICHAEL A SOLOMON</th>
+      <td>$0.00</td>
+      <td>$250,000.00</td>
+      <td>$250,000.00</td>
+    </tr>
+    <tr>
+      <th>JORGE ELORZA</th>
+      <td>$87,568.00</td>
+      <td>$212,025.00</td>
+      <td>$124,457.00</td>
+    </tr>
+    <tr>
+      <th>NELLIE M GORBEA</th>
+      <td>$159,549.48</td>
+      <td>$205,748.56</td>
+      <td>$46,199.08</td>
+    </tr>
+    <tr>
+      <th>DOMINICK J RUGGERIO</th>
+      <td>$6,425.53</td>
+      <td>$150,607.09</td>
+      <td>$144,181.56</td>
+    </tr>
+    <tr>
+      <th>BRETT SMILEY</th>
+      <td>$108,208.00</td>
+      <td>$135,563.96</td>
+      <td>$27,355.96</td>
+    </tr>
+    <tr>
+      <th>RYAN WILLIAM PEARSON</th>
+      <td>$5,943.67</td>
+      <td>$81,151.69</td>
+      <td>$75,208.02</td>
+    </tr>
+    <tr>
+      <th>MICHAEL J MCCAFFREY</th>
+      <td>$1,400.44</td>
+      <td>$73,313.64</td>
+      <td>$71,913.20</td>
+    </tr>
+    <tr>
+      <th>CHRISTOPHER R BLAZEJEWSKI</th>
+      <td>$1,950.00</td>
+      <td>$56,815.00</td>
+      <td>$54,865.00</td>
+    </tr>
+    <tr>
+      <th>RI DEMOCRATIC STATE COMMITTEE</th>
+      <td>$46.78</td>
+      <td>$47,600.00</td>
+      <td>$47,553.22</td>
+    </tr>
+    <tr>
+      <th>GREGG MICHAEL AMORE</th>
+      <td>$3,000.00</td>
+      <td>$42,990.00</td>
+      <td>$39,990.00</td>
+    </tr>
+    <tr>
+      <th>MATT BROWN</th>
+      <td>$10,250.00</td>
+      <td>$37,550.00</td>
+      <td>$27,300.00</td>
+    </tr>
+    <tr>
+      <th>KENNETH J HOPKINS</th>
+      <td>$4.92</td>
+      <td>$35,636.77</td>
+      <td>$35,631.85</td>
+    </tr>
+    <tr>
+      <th>SABINA MATOS</th>
+      <td>$28,895.00</td>
+      <td>$31,825.00</td>
+      <td>$2,930.00</td>
+    </tr>
+    <tr>
+      <th>PETER F NERONHA</th>
+      <td>$31,125.00</td>
+      <td>$31,560.48</td>
+      <td>$435.48</td>
+    </tr>
+    <tr>
+      <th>MARYELLEN GOODWIN</th>
+      <td>$0.00</td>
+      <td>$31,225.00</td>
+      <td>$31,225.00</td>
+    </tr>
+    <tr>
+      <th>RAYMOND A HULL</th>
+      <td>$250.00</td>
+      <td>$30,800.00</td>
+      <td>$30,550.00</td>
+    </tr>
+    <tr>
+      <th>NIRVA REBECCA LAFORTUNE</th>
+      <td>$54,446.00</td>
+      <td>$30,525.00</td>
+      <td>-$23,921.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>These following 2 tables will <strong>only represent "Individual" and "In-Kind - Individual" donations</strong>, and will not include numbers from PAC's, loans or interest. The top 20 for these tables were adjusted to account for this, so the order will likely change. The first one takes a look at if the doner lives in Rhode Island or out of state.</p>
+<table border="0" class="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>in_state</th>
+      <th>out_of_state</th>
+      <th>pct_in_state</th>
+      <th>total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>K JOSEPH SHEKARCHI</th>
+      <td>$264,025.00</td>
+      <td>$64,900.00</td>
+      <td>80%</td>
+      <td>$328,925.00</td>
+    </tr>
+    <tr>
+      <th>DANIEL J MCKEE</th>
+      <td>$233,434.89</td>
+      <td>$65,247.00</td>
+      <td>78%</td>
+      <td>$298,681.89</td>
+    </tr>
+    <tr>
+      <th>SETH MAGAZINER</th>
+      <td>$159,281.00</td>
+      <td>$101,610.00</td>
+      <td>61%</td>
+      <td>$260,891.00</td>
+    </tr>
+    <tr>
+      <th>JORGE ELORZA</th>
+      <td>$135,155.00</td>
+      <td>$75,370.00</td>
+      <td>64%</td>
+      <td>$210,525.00</td>
+    </tr>
+    <tr>
+      <th>NELLIE M GORBEA</th>
+      <td>$106,005.00</td>
+      <td>$98,564.00</td>
+      <td>52%</td>
+      <td>$204,569.00</td>
+    </tr>
+    <tr>
+      <th>BRETT SMILEY</th>
+      <td>$122,863.96</td>
+      <td>$8,500.00</td>
+      <td>94%</td>
+      <td>$131,363.96</td>
+    </tr>
+    <tr>
+      <th>DOMINICK J RUGGERIO</th>
+      <td>$106,450.00</td>
+      <td>$9,750.00</td>
+      <td>92%</td>
+      <td>$116,200.00</td>
+    </tr>
+    <tr>
+      <th>MICHAEL J MCCAFFREY</th>
+      <td>$52,800.00</td>
+      <td>$3,250.00</td>
+      <td>94%</td>
+      <td>$56,050.00</td>
+    </tr>
+    <tr>
+      <th>CHRISTOPHER R BLAZEJEWSKI</th>
+      <td>$39,015.00</td>
+      <td>$1,650.00</td>
+      <td>96%</td>
+      <td>$40,665.00</td>
+    </tr>
+    <tr>
+      <th>KENNETH J HOPKINS</th>
+      <td>$34,885.00</td>
+      <td>$600.00</td>
+      <td>98%</td>
+      <td>$35,485.00</td>
+    </tr>
+    <tr>
+      <th>GREGG MICHAEL AMORE</th>
+      <td>$30,965.00</td>
+      <td>$3,250.00</td>
+      <td>91%</td>
+      <td>$34,215.00</td>
+    </tr>
+    <tr>
+      <th>NIRVA REBECCA LAFORTUNE</th>
+      <td>$24,580.00</td>
+      <td>$5,945.00</td>
+      <td>81%</td>
+      <td>$30,525.00</td>
+    </tr>
+    <tr>
+      <th>HILARY LEVEY FRIEDMAN</th>
+      <td>$11,659.16</td>
+      <td>$18,304.82</td>
+      <td>39%</td>
+      <td>$29,963.98</td>
+    </tr>
+    <tr>
+      <th>PETER F NERONHA</th>
+      <td>$20,760.48</td>
+      <td>$9,050.00</td>
+      <td>70%</td>
+      <td>$29,810.48</td>
+    </tr>
+    <tr>
+      <th>SABINA MATOS</th>
+      <td>$25,625.00</td>
+      <td>$975.00</td>
+      <td>96%</td>
+      <td>$26,600.00</td>
+    </tr>
+    <tr>
+      <th>JOHN GONCALVES</th>
+      <td>$22,509.00</td>
+      <td>$4,035.00</td>
+      <td>85%</td>
+      <td>$26,544.00</td>
+    </tr>
+    <tr>
+      <th>RAYMOND A HULL</th>
+      <td>$23,825.00</td>
+      <td>$2,500.00</td>
+      <td>91%</td>
+      <td>$26,325.00</td>
+    </tr>
+    <tr>
+      <th>JACQUELYN BAGINSKI</th>
+      <td>$22,920.00</td>
+      <td>$1,500.00</td>
+      <td>94%</td>
+      <td>$24,420.00</td>
+    </tr>
+    <tr>
+      <th>MATT BROWN</th>
+      <td>$4,350.00</td>
+      <td>$18,200.00</td>
+      <td>19%</td>
+      <td>$22,550.00</td>
+    </tr>
+    <tr>
+      <th>DORIS M DE LOS SANTOS</th>
+      <td>$20,764.00</td>
+      <td>$1,300.00</td>
+      <td>94%</td>
+      <td>$22,064.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Lastly, this table focuses on the amount donated per donation. Like last time, I use the value that <a href="https://www.opensecrets.org/elections-overview/large-vs-small-donations">opensecrets.org</a> uses for small vs. large donations. They consider anything $200 or less as a "small" donation so anything between 201 - 1000 is counted under "large".</p>
+<table border="0" class="table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>small_donation</th>
+      <th>large_donation</th>
+      <th>pct_small</th>
+      <th>total</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>K JOSEPH SHEKARCHI</th>
+      <td>$59,425.00</td>
+      <td>$269,500.00</td>
+      <td>18%</td>
+      <td>$328,925.00</td>
+    </tr>
+    <tr>
+      <th>DANIEL J MCKEE</th>
+      <td>$20,806.00</td>
+      <td>$277,875.89</td>
+      <td>7%</td>
+      <td>$298,681.89</td>
+    </tr>
+    <tr>
+      <th>SETH MAGAZINER</th>
+      <td>$16,341.00</td>
+      <td>$244,550.00</td>
+      <td>6%</td>
+      <td>$260,891.00</td>
+    </tr>
+    <tr>
+      <th>JORGE ELORZA</th>
+      <td>$8,395.00</td>
+      <td>$202,130.00</td>
+      <td>4%</td>
+      <td>$210,525.00</td>
+    </tr>
+    <tr>
+      <th>NELLIE M GORBEA</th>
+      <td>$33,519.00</td>
+      <td>$171,050.00</td>
+      <td>16%</td>
+      <td>$204,569.00</td>
+    </tr>
+    <tr>
+      <th>BRETT SMILEY</th>
+      <td>$8,090.00</td>
+      <td>$123,273.96</td>
+      <td>6%</td>
+      <td>$131,363.96</td>
+    </tr>
+    <tr>
+      <th>DOMINICK J RUGGERIO</th>
+      <td>$34,200.00</td>
+      <td>$82,000.00</td>
+      <td>29%</td>
+      <td>$116,200.00</td>
+    </tr>
+    <tr>
+      <th>MICHAEL J MCCAFFREY</th>
+      <td>$21,100.00</td>
+      <td>$34,950.00</td>
+      <td>38%</td>
+      <td>$56,050.00</td>
+    </tr>
+    <tr>
+      <th>CHRISTOPHER R BLAZEJEWSKI</th>
+      <td>$15,515.00</td>
+      <td>$25,150.00</td>
+      <td>38%</td>
+      <td>$40,665.00</td>
+    </tr>
+    <tr>
+      <th>KENNETH J HOPKINS</th>
+      <td>$10,285.00</td>
+      <td>$25,200.00</td>
+      <td>29%</td>
+      <td>$35,485.00</td>
+    </tr>
+    <tr>
+      <th>GREGG MICHAEL AMORE</th>
+      <td>$13,115.00</td>
+      <td>$21,100.00</td>
+      <td>38%</td>
+      <td>$34,215.00</td>
+    </tr>
+    <tr>
+      <th>NIRVA REBECCA LAFORTUNE</th>
+      <td>$13,225.00</td>
+      <td>$17,300.00</td>
+      <td>43%</td>
+      <td>$30,525.00</td>
+    </tr>
+    <tr>
+      <th>HILARY LEVEY FRIEDMAN</th>
+      <td>$4,372.63</td>
+      <td>$25,591.35</td>
+      <td>15%</td>
+      <td>$29,963.98</td>
+    </tr>
+    <tr>
+      <th>PETER F NERONHA</th>
+      <td>$2,785.00</td>
+      <td>$27,025.48</td>
+      <td>9%</td>
+      <td>$29,810.48</td>
+    </tr>
+    <tr>
+      <th>SABINA MATOS</th>
+      <td>$6,275.00</td>
+      <td>$20,325.00</td>
+      <td>24%</td>
+      <td>$26,600.00</td>
+    </tr>
+    <tr>
+      <th>JOHN GONCALVES</th>
+      <td>$6,244.00</td>
+      <td>$20,300.00</td>
+      <td>24%</td>
+      <td>$26,544.00</td>
+    </tr>
+    <tr>
+      <th>RAYMOND A HULL</th>
+      <td>$9,525.00</td>
+      <td>$16,800.00</td>
+      <td>36%</td>
+      <td>$26,325.00</td>
+    </tr>
+    <tr>
+      <th>JACQUELYN BAGINSKI</th>
+      <td>$4,970.00</td>
+      <td>$19,450.00</td>
+      <td>20%</td>
+      <td>$24,420.00</td>
+    </tr>
+    <tr>
+      <th>MATT BROWN</th>
+      <td>$300.00</td>
+      <td>$22,250.00</td>
+      <td>1%</td>
+      <td>$22,550.00</td>
+    </tr>
+    <tr>
+      <th>DORIS M DE LOS SANTOS</th>
+      <td>$5,764.00</td>
+      <td>$16,300.00</td>
+      <td>26%</td>
+      <td>$22,064.00</td>
+    </tr>
+  </tbody>
+</table>
+            </div>           
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+              <ul class="list-group" id="social">
+                <li class="list-group-item"><a href="https://github.com/SmirkyGraphs"><i class="fa fa-github-square fa-lg"></i> Github</a></li>
+                <li class="list-group-item"><a href="https://twitter.com/Smirkygraphs"><i class="fa fa-twitter-square fa-lg"></i> Twitter</a></li>
+                <li class="list-group-item"><a href="https://smirkygraphs.github.io"><i class="fa fa-globe fa-lg" aria-hidden="true"></i> Website</a></li>
+              </ul>
+            </li>
+
+            <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
+                <ul class="list-group" id="recentposts">
+                    <li class="list-group-item">
+                        <a href="../../../../posts/2021/11/2021q3-ri-political-contributions/">
+                            2021Q3 - RI Political Contributions
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../../../posts/2021/09/states-rental-assistance/">
+                            U.S. Emergency Rental Assistance Spending
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../../../posts/2021/09/nursing-home-staff-vaccination/">
+                            Nursing Home Staff Vaccination
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../../../posts/2021/08/2021q2-ri-political-expenditures/">
+                            2021Q2 - RI Political Expenditures
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="../../../../posts/2021/08/ri-2020-census-housing/">
+                            2020 Census - Housing
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+
+            <li class="list-group-item"><a href="../../../../tags"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                </ul>
+            </li>
+    </ul>
+</section>            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2021 SmirkyGraphs
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>    <!-- Google Analytics -->
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-106762433-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    <!-- End Google Analytics Code -->
+</body>
+</html>
