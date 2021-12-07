@@ -107,9 +107,9 @@ function swapLayer(pos, layerName, geo) {
 
 async function fetchGeoJSON(chamber, dist) {
     const [waitA, waitB, waitC] = await Promise.all([
-      fetch('http://127.0.0.1:8000/data/' + chamber + '/plan_a/' + dist + '.geojson'),
-      fetch('http://127.0.0.1:8000/data/' + chamber + '/plan_b/' + dist + '.geojson'),
-      fetch('http://127.0.0.1:8000/data/' + chamber + '/current/' + dist + '.geojson'),
+      fetch('https://ivizri.com/maps/ri-redistricting//data/' + chamber + '/plan_a/' + dist + '.geojson'),
+      fetch('https://ivizri.com/maps/ri-redistricting//data/' + chamber + '/plan_b/' + dist + '.geojson'),
+      fetch('https://ivizri.com/maps/ri-redistricting//data/' + chamber + '/current/' + dist + '.geojson'),
     ]);
     const planA = await waitA.json();
     const planB = await waitB.json();
@@ -131,7 +131,7 @@ function updateMap(chamber, dist) {
         } else {
             newLeft = L.geoJSON(data[0], {id: 'left', pane: 'left', style: planAStyle})
             newRight = L.geoJSON(data[1], {id: 'right', pane: 'right', style: planBStyle})
-            currentLayer = L.geoJSON(data[2], {style: currentStyle})
+            currentLayer = L.geoJSON(data[2], {style: currentStyle, pane: 'top'})
 
             map.removeLayer(leftLayer);
             map.removeLayer(rightLayer);
