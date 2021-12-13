@@ -101,9 +101,9 @@ function addDropdown(dropDownElement, valuesList, defaultValue) {
 
 async function fetchGeoJSON(chamber, dist, leftIdx, rightIdx) {
     const [waitA, waitB, waitC] = await Promise.all([
-      fetch('http://127.0.0.1:8000/data/' + chamber + '/' + chamberSelect[leftIdx] + '/' + dist + '.geojson'),
-      fetch('http://127.0.0.1:8000/data/' + chamber + '/' + chamberSelect[rightIdx] + '/' + dist + '.geojson'),
-      fetch('http://127.0.0.1:8000/data/' + chamber + '/current/' + dist + '.geojson'),
+      fetch('https://ivizri.com/maps/ri-redistricting/data/' + chamber + '/' + chamberSelect[leftIdx] + '/' + dist + '.geojson'),
+      fetch('https://ivizri.com/maps/ri-redistricting/data/' + chamber + '/' + chamberSelect[rightIdx] + '/' + dist + '.geojson'),
+      fetch('https://ivizri.com/maps/ri-redistricting/data/' + chamber + '/current/' + dist + '.geojson'),
     ]);
     const planA = await waitA.json();
     const planB = await waitB.json();
