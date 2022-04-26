@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["house"],{"8b30":function(e,t,n){"use strict";n.r(t);var s=n("7a23"),c=n("c51d"),o={setup:function(e){return function(e,t){return Object(s["t"])(),Object(s["d"])(c["a"],{electionName:"State Represenatives",fileURL:"state_house"})}}};const u=o;t["default"]=u}}]);
+//# sourceMappingURL=house.c9c60a8a.js.map
