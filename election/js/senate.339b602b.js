@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["senate"],{"980c":function(e,t,n){"use strict";n.r(t);var a=n("7a23"),c=n("c51d"),s={setup:function(e){return function(e,t){return Object(a["s"])(),Object(a["d"])(c["a"],{electionName:"State Senators",fileURL:"state_senate"})}}};const o=s;t["default"]=o}}]);
-//# sourceMappingURL=senate.339b602b.js.map
