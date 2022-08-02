@@ -1,0 +1,1 @@
+import{a as e,o,b as s,e as t}from"./entry-7d3a09c7.mjs";const a={},c={class:"w-full max-w-4xl mx-auto px-5"},n=t("h1",null,"hello world",-1),r=[n];function _(l,d){return o(),s("div",c,r)}var x=e(a,[["render",_]]);export{x as default};
