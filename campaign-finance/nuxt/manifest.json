@@ -1,6 +1,6 @@
 {
   "../node_modules/nuxt/dist/app/entry.mjs": {
-    "file": "entry-db4fce61.mjs",
+    "file": "entry-b42b1915.mjs",
     "src": "../node_modules/nuxt/dist/app/entry.mjs",
     "isEntry": true,
     "dynamicImports": [
@@ -21,7 +21,7 @@
     ]
   },
   "../virtual:nuxt:J:/files/github/projects/campaign-finance-frontend/.nuxt/error-component.mjs": {
-    "file": "error-component-64b44b9d.mjs",
+    "file": "error-component-869f5dd9.mjs",
     "src": "../virtual:nuxt:J:/files/github/projects/campaign-finance-frontend/.nuxt/error-component.mjs",
     "isDynamicEntry": true,
     "imports": [
@@ -33,7 +33,7 @@
     ]
   },
   "pages/about/index.vue": {
-    "file": "index-36dd07a9.mjs",
+    "file": "index-39d8061f.mjs",
     "src": "pages/about/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -41,37 +41,37 @@
     ]
   },
   "pages/candidates/[id].vue": {
-    "file": "_id_-3f6b1b3e.mjs",
+    "file": "_id_-27996563.mjs",
     "src": "pages/candidates/[id].vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Table-1a42c858.mjs",
+      "_Table-10ad1c93.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_fetch-bd8210ee.mjs",
-      "_state-7a33620b.mjs"
+      "_fetch-f5e15816.mjs",
+      "_state-da0c48d0.mjs"
     ]
   },
-  "_Table-1a42c858.mjs": {
-    "file": "Table-1a42c858.mjs",
+  "_Table-10ad1c93.mjs": {
+    "file": "Table-10ad1c93.mjs",
     "imports": [
-      "_state-7a33620b.mjs",
+      "_state-da0c48d0.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_fetch-bd8210ee.mjs": {
-    "file": "fetch-bd8210ee.mjs",
+  "_fetch-f5e15816.mjs": {
+    "file": "fetch-f5e15816.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
-  "_state-7a33620b.mjs": {
-    "file": "state-7a33620b.mjs",
+  "_state-da0c48d0.mjs": {
+    "file": "state-da0c48d0.mjs",
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs"
     ]
   },
   "pages/candidates/index.vue": {
-    "file": "index-3acb5a5e.mjs",
+    "file": "index-f72971ad.mjs",
     "src": "pages/candidates/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -79,7 +79,7 @@
     ]
   },
   "pages/changelog/index.vue": {
-    "file": "index-50ac2735.mjs",
+    "file": "index-82d70ff7.mjs",
     "src": "pages/changelog/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -87,27 +87,27 @@
     ]
   },
   "pages/index.vue": {
-    "file": "index-190e3e60.mjs",
+    "file": "index-bed099d2.mjs",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_fetch-bd8210ee.mjs"
+      "_fetch-f5e15816.mjs"
     ]
   },
   "pages/records/[id].vue": {
-    "file": "_id_-e7ddf66d.mjs",
+    "file": "_id_-bc7e00ef.mjs",
     "src": "pages/records/[id].vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Table-1a42c858.mjs",
+      "_Table-10ad1c93.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_fetch-bd8210ee.mjs",
-      "_state-7a33620b.mjs"
+      "_fetch-f5e15816.mjs",
+      "_state-da0c48d0.mjs"
     ]
   },
   "pages/records/index.vue": {
-    "file": "index-4928033f.mjs",
+    "file": "index-373c847c.mjs",
     "src": "pages/records/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -115,18 +115,18 @@
     ]
   },
   "pages/totals/[id].vue": {
-    "file": "_id_-74b0e34d.mjs",
+    "file": "_id_-41275653.mjs",
     "src": "pages/totals/[id].vue",
     "isDynamicEntry": true,
     "imports": [
-      "_Table-1a42c858.mjs",
+      "_Table-10ad1c93.mjs",
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_fetch-bd8210ee.mjs",
-      "_state-7a33620b.mjs"
+      "_fetch-f5e15816.mjs",
+      "_state-da0c48d0.mjs"
     ]
   },
   "pages/totals/index.vue": {
-    "file": "index-20688acf.mjs",
+    "file": "index-dc41b23a.mjs",
     "src": "pages/totals/index.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -134,19 +134,19 @@
     ]
   },
   "layouts/default.vue": {
-    "file": "default-783b3ef2.mjs",
+    "file": "default-25a0aafa.mjs",
     "src": "layouts/default.vue",
     "isDynamicEntry": true,
     "imports": [
       "../node_modules/nuxt/dist/app/entry.mjs",
-      "_state-7a33620b.mjs"
+      "_state-da0c48d0.mjs"
     ],
     "css": [
       "default.5a310dfb.css"
     ]
   },
   "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
-    "file": "error-404-892f0eda.mjs",
+    "file": "error-404-508d709a.mjs",
     "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
@@ -157,7 +157,7 @@
     ]
   },
   "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
-    "file": "error-500-eca09118.mjs",
+    "file": "error-500-ba27dde8.mjs",
     "src": "../node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
