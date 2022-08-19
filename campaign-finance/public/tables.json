@@ -66,19 +66,19 @@
     "records": {
         "con_highest_quarterly_earnings": {
             "title": "Most Raised in a Single Quarter",
-            "desc": "Shows the top 25 since 2002 that have raised the most in a single quarter from \"Individual\" and \"In-Kind - Individual\" donations."
+            "desc": "Shows the top 25 since 2002 that have raised the most in a single quarter from \"Individual\" and \"In-Kind - Individual\" donations. If the row quarter matches this most recent reported quarter, the row will be highlighted in blue."
         },
         "con_most_raised_top_n": {
             "title": "Most Raised All-Time",
-            "desc": "Shows the top 25 since 2002 that have raised the most from \"Individual\" and \"In-Kind - Individual\" donations."
+            "desc": "Shows the top 25 since 2002 that have raised the most from \"Individual\" and \"In-Kind - Individual\" donations. If the row quarter matches this most recent reported quarter, the row will be highlighted in blue."
         },
         "exp_highest_quarterly_spending": {
             "title": "Most Spent in a Single Quarter",
-            "desc": "Shows the top 25 since 2002 that have spent the most in a single quarter."
+            "desc": "Shows the top 25 since 2002 that have spent the most in a single quarter. If the row quarter matches this most recent reported quarter, the row will be highlighted in blue."
         },
         "exp_highest_single_expenditures": {
             "title": "Largest Single-line Expenditures",
-            "desc": "Shows the top 25 highest single expenditure transactions since 2002."
+            "desc": "Shows the top 25 highest single expenditure transactions since 2002. If the row quarter matches this most recent reported quarter, the row will be highlighted in blue."
         }
     }
 }
