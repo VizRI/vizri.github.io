@@ -1,0 +1,1 @@
+import{a as t,o as n,b as s,F as a,s as e}from"./entry-d3f6e459.mjs";const r={},o=e("h1",null,"Currently Empty",-1),c=e("p",{class:"fs-5"},"theres currently nothing here, navigate the menu at the top of this page.",-1);function _(l,h){return n(),s(a,null,[o,c],64)}var f=t(r,[["render",_]]);export{f as default};
