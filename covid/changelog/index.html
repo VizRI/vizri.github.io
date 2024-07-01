@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rhode Island COVID-19</title>
+
+    <link href= "/covid/static/main.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" rel="stylesheet"/>
+</head>
+<nav class="navbar fixed-top navbar-dark bg-dark">
+    <a href="https://ivizri.com" class="navbar-brand">ivizri.com</a>
+    <a data-toggle="collapse" href="#" data-target=".ravel" role="button" class="p-1">
+        <i class="fa fa-bars fa-lg"></i>
+    </a>
+</nav>
+<div class="container-fluid px-0 h-100">
+    <div class="row min-vh-100 collapse show no-gutters d-flex h-100 position-relative ravel">
+        <div class="p-0 h-100 text-white w-sidebar navbar-collapse collapse d-none d-md-flex sidebar ravel">
+            <!-- fixed sidebar -->
+<div class="sidenav position-fixed text-white h-100 w-sidebar p-4">
+    <div class="sidenav-content">
+        <ul class="list-unstyled components mt-5 mb-3">
+            <li class="active"><a href="/covid/">Daily Update</a></li>
+            <li class="active"><a href="/covid/totals/">Current Totals</a></li>
+        </ul>
+        <ul class="list-unstyled components mb-3">
+            <li>
+                <a href="#schoolsSubmenu" data-toggle="collapse" data-target="#schoolsSubmenu" aria-expanded="false"
+                    class="panel-title active">Schools</a>
+                <ul class="collapse list-unstyled" id="schoolsSubmenu">
+                    <li class="sub-item"><a href="/covid/schools/">Weekly Update</a></li>
+                    <li class="sub-item">
+                        <a href="#personSchoolsSubmenu" data-toggle="collapse" data-target="#personSchoolsSubmenu" aria-expanded="false"
+                        class="panel-title active">In Person</a>
+                        <ul class="collapse list-unstyled" id="personSchoolsSubmenu">
+                            <li class="sub-item2"><a href="/covid/schools/tables/student-inperson/">Student Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/schools/tables/staff-inperson/">Staff Cases</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="#virtualSchoolsSubmenu" data-toggle="collapse" data-target="#virtualSchoolsSubmenu" aria-expanded="false"
+                        class="panel-title active">Virtual</a>
+                        <ul class="collapse list-unstyled" id="virtualSchoolsSubmenu">
+                            <li class="sub-item2"><a href="/covid/schools/tables/student-virtual/">Student Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/schools/tables/staff-virtual/">Staff Cases</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#nursingSubmenu" data-toggle="collapse" data-target="#nursingSubmenu" aria-expanded="false"
+                    class="panel-title active">Nursing Homes</a>
+                <ul class="collapse list-unstyled" id="nursingSubmenu">
+                    <li class="sub-item"><a href="/covid/nursing-homes/">Weekly Update</a></li>
+                    <li class="sub-item">
+                        <a href="#nursingHomeProv" data-toggle="collapse" data-target="#nursingHomeProv" aria-expanded="false"
+                        class="panel-title active">Provider</a>
+                        <ul class="collapse list-unstyled" id="nursingHomeProv">
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-deaths/">Deaths</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-deaths-pct-covid/">Deaths ( % )</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-death-rate/">Deaths ( Rate )</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-cases/">Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-cases-rate/">Cases ( Rate )</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-capacity/">Capacity</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-ppe/">PPE Shortage</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-staffing/">Staff Shortage</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-staff-vac/">Staff Vaccination</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-res-vac/">Resident Vaccination</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="#nursingHomeWeekly" data-toggle="collapse" data-target="#nursingHomeWeekly" aria-expanded="false"
+                        class="panel-title active">Timeline</a>
+                        <ul class="collapse list-unstyled" id="nursingHomeWeekly">
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/weekly-deaths/">Deaths</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/weekly-cases/">Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/weekly-capacity/">Capacity</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/staff-weekly-vac/">Staff Vaccine</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/resident-weekly-vac/">Resident Vaccine</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#vacSubmenu" data-toggle="collapse" data-target="#vacSubmenu" aria-expanded="false"
+                    class="panel-title active">Vaccinations</a>
+                <ul class="collapse list-unstyled" id="vacSubmenu">
+                    <li class="sub-item"><a href="/covid/vaccine/">CDC Update</a></li>
+                    <li class="sub-item"><a href="/covid/vaccine/ridoh-trend/">RIDOH Trend</a></li>
+                    <li class="sub-item">
+                        <a href="#vacStateRank" data-toggle="collapse" data-target="#vacStateRank" aria-expanded="false"
+                        class="panel-title active">State Rank</a>
+                        <ul class="collapse list-unstyled" id="vacStateRank">
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/percent-used/">Vaccine Used (&nbsp;%&nbsp;)</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/one-dose/">1 Dose</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/one-dose-65plus/">1 Dose (&nbsp;65+&nbsp;)</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/two-dose/">Fully Vaccinated</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/two-dose-65plus/">Fully Vaccinated (&nbsp;65+&nbsp;)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+
+        <ul class="list-unstyled components mb-3">
+            <li>
+                <a href="#deathsSubmenu" data-toggle="collapse" data-target="#deathsSubmenu" aria-expanded="false"
+                    class="panel-title active">Deaths</a>
+                <ul class="collapse list-unstyled" id="deathsSubmenu">
+                    <li class="sub-item"><a href="/covid/deaths/new-deaths/">New Deaths</a></li>
+                    <li class="sub-item"><a href="/covid/deaths/daily-deaths/">Daily Deaths</a></li>
+                    <li class="sub-item"><a href="/covid/deaths/deaths-revised-bar/">Deaths Revised (&nbsp;bar&nbsp;)</a></li>
+                    <li class="sub-item"><a href="/covid/deaths/deaths-revised-avg/">Deaths Revised (&nbsp;avg&nbsp;)</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#testSubmenu" data-toggle="collapse" data-target="#testSubmenu" aria-expanded="false"
+                    class="panel-title collapsed">Testing</a>
+                <ul class="collapse list-unstyled" id="testSubmenu">
+                    <li class="sub-item"><a href="/covid/testing/labs-positive/">Labs Positive</a></li>
+                    <li class="sub-item"><a href="/covid/testing/labs-positive-pct/">Labs Positive (&nbsp;%&nbsp;)</a></li>
+                    <li class="sub-item"><a href="/covid/testing/people-positive/">People Positive</a></li>
+                    <li class="sub-item"><a href="/covid/testing/people-positive-pct/">People Positive (&nbsp;%&nbsp;)</a></li>
+                    <li class="sub-item"><a href="/covid/testing/new-people-tested/">New People Tested (&nbsp;%&nbsp;)</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#hospSubmenu" data-toggle="collapse" data-target="#hospSubmenu" aria-expanded="false"
+                    class="panel-title collapsed">Hospitalized</a>
+                <ul class="collapse list-unstyled" id="hospSubmenu">
+                    <li class="sub-item"><a href="/covid/hospital/admissions/">Hospital Admissions</a></li>
+                    <li class="sub-item"><a href="/covid/hospital/intensive-care/">Intensive Care</a></li>
+                    <li class="sub-item"><a href="/covid/hospital/ventilator/">Ventilator</a></li>
+                </ul>
+            </li>
+            </li>
+        </ul>
+    </div>
+
+    <div class="sidenav-footer">
+        <ul class="list-unstyled components mb-5">
+            <li><a href="/covid/about/">About</a></li>
+            <li><a href="https://twitter.com/RI_COVID19">Twitter Bot</a></li>
+            <li><a href="/covid/changelog/">Changelog</a></li>
+        </ul>
+        <ul class="list-unstyled components">
+            <div class="small text-side">Updated: 9/28/2021</div>
+            <div class="small text-side">Designed by: SmirkyGraphs</div>
+        </ul>
+    </div>
+</div>
+        </div>
+        
+<div class="col-md-6 offset-1 p-3">
+    <h2 class="mt-4 mb-4">Changelog</h2>
+    <p>All notable changes to this project will be documented here.</p>
+    <hr>
+    <div>
+        <h4 class="mt-4 mb-4">2021-09-24 - CMS Table Fix + Vaccine Added</h4>
+        <h5 class="mt-4">Added</h5>
+        <ul>
+            <li><a href="/covid/nursing-homes/tables/provider-staff-vac/">Staff Vaccination</a> data showing the most recent numbers of vaccinated staff by provider.</li>
+            <li><a href="/covid/nursing-homes/tables/staff-weekly-vac/">Staff Weekly Vaccine</a> data showing a running total number of nursing home employees vaccinated.</li>
+            <li><a href="/covid/nursing-homes/tables/provider-res-vac/">Resident Vaccination</a> data showing the most recent numbers of vaccinated residents by provider.</li>
+            <li><a href="/covid/nursing-homes/tables/res-weekly-vac/">Resident Weekly Vaccine</a> data showing a running total number of nursing home residents vaccinated.</li>
+        </ul>
+        <h5 class="mt-4">Changes</h5>
+        <ul>
+            <li>Added CMS.gov nursing home and CDC.gov vaccination data details to the <a href="/covid/about/">About</a> page and provided links to all sources.</li>
+            <li>All Nursing Home tables were broken due to the change of the datasource location, new source located at <a href="https://data.cms.gov/covid-19/covid-19-nursing-home-data">data.cms.gov</a>.</li>
+            <li>Additionally some fields were renamed breaking the code that generates the tables which have been fixed.</li>
+        </ul>
+        <hr>
+        <h4 class="mt-4 mb-4">2021-03-08 - Vaccine Update</h4>
+        <h5 class="mt-4">Added</h5>
+        <ul>
+            <li><a href="/covid/vaccine/">Vaccine daily update</a> data from CDC highlighting vaccination numbers.</li>
+            <li><a href="/covid/vaccine/ridoh-trend/">Vaccination trend</a> from RIDOH showing 1 and 2 doses administered and a 7-day moving average.</li>
+            <li>CDC <a href="/covid/vaccine/state-rank/percent-used/">Percent vaccine used</a> showing how much recieved vaccine each state has used.</li>
+            <li>CDC <a href="/covid/vaccine/state-rank/one-dose/">1 Dose</a> showing how RI ranks compared to other states in people who have recieved 1 dose.</li>
+            <li>CDC <a href="/covid/vaccine/state-rank/two-dose/">Fully vaccinated</a> showing how RI ranks compared to other states in people who have recieved 2 doses.</li>
+            <li>CDC <a href="/covid/vaccine/state-rank/one-dose-65plus/">1 Dose (65 plus)</a> showing how RI ranks compared to other states in people 65+ who have recieved 1 dose.</li>
+            <li>CDC <a href="/covid/vaccine/state-rank/two-dose-65plus/">Fully vaccinated (65 plus)</a> showing how RI ranks compared to other states in people 65+ who have recieved 2 doses.</li>
+        </ul>
+        <h5 class="mt-4">Changes</h5>
+        <ul>
+            <li>RIDOH vaccine numbers now appear in Daily Update showing new partially and fully vaccinated.</li>
+            <li>RIDOH vaccine numbers now appear in Current Totals showing total partially and fully vaccinated.</li>
+            <li>Added a new graph <a href="/covid/deaths/new-deaths/">new deaths</a> highlighting just today's deaths.</li>
+            <li>Added a new graph <a href="/covid/testing/new-people-tested/">new people tested</a> showing what % of tests are first time takers.</li>
+        </ul>
+        <hr>
+        <h4 class="mt-4 mb-4">2021-02-19 - Nursing Homes Update</h4>
+        <h5 class="mt-4">Added</h5>
+        <ul>
+            <li><a href="/covid/nursing-homes/">Nursing Home weekly update</a> data from CMS.gov highlighting cases & deaths in LTC facilities.</li>
+            <li>Tables for <a href="/covid/nursing-homes/tables/provider-deaths/">deaths</a>
+                normalized by both <a href="/covid/nursing-homes/tables/provider-deaths-pct-covid/">percent</a>
+                and <a href="/covid/nursing-homes/tables/provider-death-rate/">rate</a> (% and rate residents only).</li>
+            <li>Tables for <a href="/covid/nursing-homes/tables/provider-cases/">cases</a> of confirmed positive COVID-19
+                and <a href="/covid/nursing-homes/tables/provider-cases-rate/">rate</a> among residents.</li>
+            <li>Table showing <a href="/covid/nursing-homes/tables/provider-capacity/">capacity</a> of facilities
+                showing how many beds are occupied.</li>
+            <li>Tables for both <a href="/covid/nursing-homes/tables/provider-ppe/">PPE supplies</a>
+                    and <a href="/covid/nursing-homes/tables/provider-staffing/">staffing</a> shortages.</li>
+            <li>Timeline tables of <a href="/covid/nursing-homes/tables/weekly-deaths/">deaths</a>, 
+                    <a href="/covid/nursing-homes/tables/weekly-cases/">cases</a>
+                    and <a href="/covid/nursing-homes/tables/weekly-capacity/">capacity</a> by week-end.</li>
+        </ul>
+        <h5 class="mt-4">Changes</h5>
+        <ul>
+            <li>All tables should now start sorted by default highest to lowest of main metric.</li>
+            <li>Added date to the top right of all tables highlighting when the data is from.</li>
+        </ul>
+        <hr>
+        <h4 class="mt-4 mb-4">2021-02-01 - Schools Update</h4>
+        <h5 class="mt-4">Added</h5>
+        <ul>
+            <li><a href="/covid/schools/">Schools weekly update</a> page highlighting cases & number of schools with under 5 cases.</li>
+            <li>Tables for <a href="/covid/schools/tables/student-inperson/">student</a> 
+                and <a href="/covid/schools/tables/staff-inperson/">staff</a> cases for in-person/hybrid schools.</li>
+            <li>Tables for <a href="/covid/schools/tables/student-virtual/">student</a>  
+                and <a href="/covid/schools/tables/staff-virtual/">staff</a> cases for virtual schools.</li>
+        </ul>
+        <h5 class="mt-4">Changes</h5>
+        <ul>
+            <li>Daily update sources to be more uniform with the naming of values.</li>
+            <li>Added column names from RIDOH sheet to source information modals.</li>
+        </ul>
+        <hr>
+        <h4 class="mt-4 mb-4">2021-01-13 - Project Release</h4>
+        <h5 class="mt-4">Added</h5>
+        <ul>
+            <li><a href="/covid/">Daily update</a> page tracking important information & deaths.</li>
+            <li><a href="/covid/totals/">Current totals</a> page tracking totals for various metrics.</li>
+            <li>Deaths graphs showing daily deaths and change overtime.</li>
+            <li>Testing graphs showing positive cases since March 2020.</li>
+            <li>Hospitalized graphs showing admissions and icu/vent numbers.</li>
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+</div>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>       
+    <script src="/covid/static/js/table.js"></script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-106762433-4']);
+        _gaq.push(['_trackPageview']);
+    
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</footer>
+</html>

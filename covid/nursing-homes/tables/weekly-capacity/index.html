@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rhode Island COVID-19</title>
+
+    <link href= "/covid/static/main.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" rel="stylesheet"/>
+</head>
+<nav class="navbar fixed-top navbar-dark bg-dark">
+    <a href="https://ivizri.com" class="navbar-brand">ivizri.com</a>
+    <a data-toggle="collapse" href="#" data-target=".ravel" role="button" class="p-1">
+        <i class="fa fa-bars fa-lg"></i>
+    </a>
+</nav>
+<div class="container-fluid px-0 h-100">
+    <div class="row min-vh-100 collapse show no-gutters d-flex h-100 position-relative ravel">
+        <div class="p-0 h-100 text-white w-sidebar navbar-collapse collapse d-none d-md-flex sidebar ravel">
+            <!-- fixed sidebar -->
+<div class="sidenav position-fixed text-white h-100 w-sidebar p-4">
+    <div class="sidenav-content">
+        <ul class="list-unstyled components mt-5 mb-3">
+            <li class="active"><a href="/covid/">Daily Update</a></li>
+            <li class="active"><a href="/covid/totals/">Current Totals</a></li>
+        </ul>
+        <ul class="list-unstyled components mb-3">
+            <li>
+                <a href="#schoolsSubmenu" data-toggle="collapse" data-target="#schoolsSubmenu" aria-expanded="false"
+                    class="panel-title active">Schools</a>
+                <ul class="collapse list-unstyled" id="schoolsSubmenu">
+                    <li class="sub-item"><a href="/covid/schools/">Weekly Update</a></li>
+                    <li class="sub-item">
+                        <a href="#personSchoolsSubmenu" data-toggle="collapse" data-target="#personSchoolsSubmenu" aria-expanded="false"
+                        class="panel-title active">In Person</a>
+                        <ul class="collapse list-unstyled" id="personSchoolsSubmenu">
+                            <li class="sub-item2"><a href="/covid/schools/tables/student-inperson/">Student Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/schools/tables/staff-inperson/">Staff Cases</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="#virtualSchoolsSubmenu" data-toggle="collapse" data-target="#virtualSchoolsSubmenu" aria-expanded="false"
+                        class="panel-title active">Virtual</a>
+                        <ul class="collapse list-unstyled" id="virtualSchoolsSubmenu">
+                            <li class="sub-item2"><a href="/covid/schools/tables/student-virtual/">Student Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/schools/tables/staff-virtual/">Staff Cases</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#nursingSubmenu" data-toggle="collapse" data-target="#nursingSubmenu" aria-expanded="false"
+                    class="panel-title active">Nursing Homes</a>
+                <ul class="collapse list-unstyled" id="nursingSubmenu">
+                    <li class="sub-item"><a href="/covid/nursing-homes/">Weekly Update</a></li>
+                    <li class="sub-item">
+                        <a href="#nursingHomeProv" data-toggle="collapse" data-target="#nursingHomeProv" aria-expanded="false"
+                        class="panel-title active">Provider</a>
+                        <ul class="collapse list-unstyled" id="nursingHomeProv">
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-deaths/">Deaths</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-deaths-pct-covid/">Deaths ( % )</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-death-rate/">Deaths ( Rate )</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-cases/">Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-cases-rate/">Cases ( Rate )</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-capacity/">Capacity</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-ppe/">PPE Shortage</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-staffing/">Staff Shortage</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/provider-staff-vac/">Staff Vaccination</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-item">
+                        <a href="#nursingHomeWeekly" data-toggle="collapse" data-target="#nursingHomeWeekly" aria-expanded="false"
+                        class="panel-title active">Timeline</a>
+                        <ul class="collapse list-unstyled" id="nursingHomeWeekly">
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/weekly-deaths/">Deaths</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/weekly-cases/">Cases</a></li>
+                            <li class="sub-item2"><a href="/covid/nursing-homes/tables/weekly-capacity/">Capacity</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#vacSubmenu" data-toggle="collapse" data-target="#vacSubmenu" aria-expanded="false"
+                    class="panel-title active">Vaccinations</a>
+                <ul class="collapse list-unstyled" id="vacSubmenu">
+                    <li class="sub-item"><a href="/covid/vaccine/">CDC Update</a></li>
+                    <li class="sub-item"><a href="/covid/vaccine/ridoh-trend/">RIDOH Trend</a></li>
+                    <li class="sub-item">
+                        <a href="#vacStateRank" data-toggle="collapse" data-target="#vacStateRank" aria-expanded="false"
+                        class="panel-title active">State Rank</a>
+                        <ul class="collapse list-unstyled" id="vacStateRank">
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/percent-used/">Vaccine Used (&nbsp;%&nbsp;)</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/one-dose/">1 Dose</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/one-dose-65plus/">1 Dose (&nbsp;65+&nbsp;)</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/two-dose/">Fully Vaccinated</a></li>
+                            <li class="sub-item2"><a href="/covid/vaccine/state-rank/two-dose-65plus/">Fully Vaccinated (&nbsp;65+&nbsp;)</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+
+        <ul class="list-unstyled components mb-3">
+            <li>
+                <a href="#deathsSubmenu" data-toggle="collapse" data-target="#deathsSubmenu" aria-expanded="false"
+                    class="panel-title active">Deaths</a>
+                <ul class="collapse list-unstyled" id="deathsSubmenu">
+                    <li class="sub-item"><a href="/covid/deaths/new-deaths/">New Deaths</a></li>
+                    <li class="sub-item"><a href="/covid/deaths/daily-deaths/">Daily Deaths</a></li>
+                    <li class="sub-item"><a href="/covid/deaths/deaths-revised-bar/">Deaths Revised (&nbsp;bar&nbsp;)</a></li>
+                    <li class="sub-item"><a href="/covid/deaths/deaths-revised-avg/">Deaths Revised (&nbsp;avg&nbsp;)</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#testSubmenu" data-toggle="collapse" data-target="#testSubmenu" aria-expanded="false"
+                    class="panel-title collapsed">Testing</a>
+                <ul class="collapse list-unstyled" id="testSubmenu">
+                    <li class="sub-item"><a href="/covid/testing/labs-positive/">Labs Positive</a></li>
+                    <li class="sub-item"><a href="/covid/testing/labs-positive-pct/">Labs Positive (&nbsp;%&nbsp;)</a></li>
+                    <li class="sub-item"><a href="/covid/testing/people-positive/">People Positive</a></li>
+                    <li class="sub-item"><a href="/covid/testing/people-positive-pct/">People Positive (&nbsp;%&nbsp;)</a></li>
+                    <li class="sub-item"><a href="/covid/testing/new-people-tested/">New People Tested (&nbsp;%&nbsp;)</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#hospSubmenu" data-toggle="collapse" data-target="#hospSubmenu" aria-expanded="false"
+                    class="panel-title collapsed">Hospitalized</a>
+                <ul class="collapse list-unstyled" id="hospSubmenu">
+                    <li class="sub-item"><a href="/covid/hospital/admissions/">Hospital Admissions</a></li>
+                    <li class="sub-item"><a href="/covid/hospital/intensive-care/">Intensive Care</a></li>
+                    <li class="sub-item"><a href="/covid/hospital/ventilator/">Ventilator</a></li>
+                </ul>
+            </li>
+            </li>
+        </ul>
+    </div>
+
+    <div class="sidenav-footer">
+        <ul class="list-unstyled components mb-5">
+            <li><a href="/covid/about/">About</a></li>
+            <li><a href="https://twitter.com/RI_COVID19">Twitter Bot</a></li>
+            <li><a href="/covid/changelog/">Changelog</a></li>
+        </ul>
+        <ul class="list-unstyled components">
+            <div class="small text-side">Updated: 9/25/2021</div>
+            <div class="small text-side">Designed by: SmirkyGraphs</div>
+        </ul>
+    </div>
+</div>
+        </div>
+        
+<div class="col p-3">
+    <h2 class="mt-4 mb-4">Nursing Home Capacity</h2>
+    <div>
+        
+        <p class="float-left mb-0">Source for table & details shown <a href="#source">below</a>.</p>
+        
+        <p class="float-right mb-0"><small>last updated: </small>9/12/2021</h3>
+    </div>
+    <table id="nursingHomeDeaths" class="table table-striped mb-2">
+        <thead>
+            <tr>
+                
+                <th>Week Ending</th>
+                
+                <th>All Beds</th>
+                
+                <th>Occupied Beds</th>
+                
+                <th>% Beds Occupied</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+    <tr>
+      <td>05/24/2020</td>
+      <td>7705</td>
+      <td>5840</td>
+      <td>75.8%</td>
+    </tr>
+    <tr>
+      <td>05/31/2020</td>
+      <td>7963</td>
+      <td>5859</td>
+      <td>73.6%</td>
+    </tr>
+    <tr>
+      <td>06/07/2020</td>
+      <td>8022</td>
+      <td>5853</td>
+      <td>73.0%</td>
+    </tr>
+    <tr>
+      <td>06/14/2020</td>
+      <td>8022</td>
+      <td>5829</td>
+      <td>72.7%</td>
+    </tr>
+    <tr>
+      <td>06/21/2020</td>
+      <td>8022</td>
+      <td>5824</td>
+      <td>72.6%</td>
+    </tr>
+    <tr>
+      <td>06/28/2020</td>
+      <td>8022</td>
+      <td>5824</td>
+      <td>72.6%</td>
+    </tr>
+    <tr>
+      <td>07/05/2020</td>
+      <td>8022</td>
+      <td>5821</td>
+      <td>72.6%</td>
+    </tr>
+    <tr>
+      <td>07/12/2020</td>
+      <td>8022</td>
+      <td>5747</td>
+      <td>71.6%</td>
+    </tr>
+    <tr>
+      <td>07/19/2020</td>
+      <td>8022</td>
+      <td>5804</td>
+      <td>72.4%</td>
+    </tr>
+    <tr>
+      <td>07/26/2020</td>
+      <td>8022</td>
+      <td>5831</td>
+      <td>72.7%</td>
+    </tr>
+    <tr>
+      <td>08/02/2020</td>
+      <td>8022</td>
+      <td>5833</td>
+      <td>72.7%</td>
+    </tr>
+    <tr>
+      <td>08/09/2020</td>
+      <td>8022</td>
+      <td>5880</td>
+      <td>73.3%</td>
+    </tr>
+    <tr>
+      <td>08/16/2020</td>
+      <td>8022</td>
+      <td>5872</td>
+      <td>73.2%</td>
+    </tr>
+    <tr>
+      <td>08/23/2020</td>
+      <td>7965</td>
+      <td>5896</td>
+      <td>74.0%</td>
+    </tr>
+    <tr>
+      <td>08/30/2020</td>
+      <td>7965</td>
+      <td>5902</td>
+      <td>74.1%</td>
+    </tr>
+    <tr>
+      <td>09/06/2020</td>
+      <td>7965</td>
+      <td>5895</td>
+      <td>74.0%</td>
+    </tr>
+    <tr>
+      <td>09/13/2020</td>
+      <td>7965</td>
+      <td>5910</td>
+      <td>74.2%</td>
+    </tr>
+    <tr>
+      <td>09/20/2020</td>
+      <td>7965</td>
+      <td>5939</td>
+      <td>74.6%</td>
+    </tr>
+    <tr>
+      <td>09/27/2020</td>
+      <td>7965</td>
+      <td>5899</td>
+      <td>74.1%</td>
+    </tr>
+    <tr>
+      <td>10/04/2020</td>
+      <td>7965</td>
+      <td>5906</td>
+      <td>74.1%</td>
+    </tr>
+    <tr>
+      <td>10/11/2020</td>
+      <td>7965</td>
+      <td>5873</td>
+      <td>73.7%</td>
+    </tr>
+    <tr>
+      <td>10/18/2020</td>
+      <td>7965</td>
+      <td>5863</td>
+      <td>73.6%</td>
+    </tr>
+    <tr>
+      <td>10/25/2020</td>
+      <td>7965</td>
+      <td>5893</td>
+      <td>74.0%</td>
+    </tr>
+    <tr>
+      <td>11/01/2020</td>
+      <td>7965</td>
+      <td>5869</td>
+      <td>73.7%</td>
+    </tr>
+    <tr>
+      <td>11/08/2020</td>
+      <td>7965</td>
+      <td>5824</td>
+      <td>73.1%</td>
+    </tr>
+    <tr>
+      <td>11/15/2020</td>
+      <td>7965</td>
+      <td>5799</td>
+      <td>72.8%</td>
+    </tr>
+    <tr>
+      <td>11/22/2020</td>
+      <td>7965</td>
+      <td>6446</td>
+      <td>80.9%</td>
+    </tr>
+    <tr>
+      <td>11/29/2020</td>
+      <td>7965</td>
+      <td>5731</td>
+      <td>72.0%</td>
+    </tr>
+    <tr>
+      <td>12/06/2020</td>
+      <td>7977</td>
+      <td>5706</td>
+      <td>71.5%</td>
+    </tr>
+    <tr>
+      <td>12/13/2020</td>
+      <td>7965</td>
+      <td>5588</td>
+      <td>70.2%</td>
+    </tr>
+    <tr>
+      <td>12/20/2020</td>
+      <td>7965</td>
+      <td>5538</td>
+      <td>69.5%</td>
+    </tr>
+    <tr>
+      <td>12/27/2020</td>
+      <td>7977</td>
+      <td>5490</td>
+      <td>68.8%</td>
+    </tr>
+    <tr>
+      <td>01/03/2021</td>
+      <td>7966</td>
+      <td>5534</td>
+      <td>69.5%</td>
+    </tr>
+    <tr>
+      <td>01/10/2021</td>
+      <td>7966</td>
+      <td>5533</td>
+      <td>69.5%</td>
+    </tr>
+    <tr>
+      <td>01/17/2021</td>
+      <td>7954</td>
+      <td>5524</td>
+      <td>69.4%</td>
+    </tr>
+    <tr>
+      <td>01/24/2021</td>
+      <td>7954</td>
+      <td>5540</td>
+      <td>69.7%</td>
+    </tr>
+    <tr>
+      <td>01/31/2021</td>
+      <td>7966</td>
+      <td>5550</td>
+      <td>69.7%</td>
+    </tr>
+    <tr>
+      <td>02/07/2021</td>
+      <td>7966</td>
+      <td>5563</td>
+      <td>69.8%</td>
+    </tr>
+    <tr>
+      <td>02/14/2021</td>
+      <td>7966</td>
+      <td>5483</td>
+      <td>68.8%</td>
+    </tr>
+    <tr>
+      <td>02/21/2021</td>
+      <td>7966</td>
+      <td>5606</td>
+      <td>70.4%</td>
+    </tr>
+    <tr>
+      <td>02/28/2021</td>
+      <td>7966</td>
+      <td>5637</td>
+      <td>70.8%</td>
+    </tr>
+    <tr>
+      <td>03/07/2021</td>
+      <td>7966</td>
+      <td>5615</td>
+      <td>70.5%</td>
+    </tr>
+    <tr>
+      <td>03/14/2021</td>
+      <td>7966</td>
+      <td>5633</td>
+      <td>70.7%</td>
+    </tr>
+    <tr>
+      <td>03/21/2021</td>
+      <td>7925</td>
+      <td>5621</td>
+      <td>70.9%</td>
+    </tr>
+    <tr>
+      <td>03/28/2021</td>
+      <td>7925</td>
+      <td>5668</td>
+      <td>71.5%</td>
+    </tr>
+    <tr>
+      <td>04/04/2021</td>
+      <td>7925</td>
+      <td>5677</td>
+      <td>71.6%</td>
+    </tr>
+    <tr>
+      <td>04/11/2021</td>
+      <td>7925</td>
+      <td>5720</td>
+      <td>72.2%</td>
+    </tr>
+    <tr>
+      <td>04/18/2021</td>
+      <td>7925</td>
+      <td>5742</td>
+      <td>72.5%</td>
+    </tr>
+    <tr>
+      <td>04/25/2021</td>
+      <td>7925</td>
+      <td>5612</td>
+      <td>70.8%</td>
+    </tr>
+    <tr>
+      <td>05/02/2021</td>
+      <td>7925</td>
+      <td>5743</td>
+      <td>72.5%</td>
+    </tr>
+    <tr>
+      <td>05/09/2021</td>
+      <td>7925</td>
+      <td>5745</td>
+      <td>72.5%</td>
+    </tr>
+    <tr>
+      <td>05/16/2021</td>
+      <td>7925</td>
+      <td>5767</td>
+      <td>72.8%</td>
+    </tr>
+    <tr>
+      <td>05/23/2021</td>
+      <td>7925</td>
+      <td>5770</td>
+      <td>72.8%</td>
+    </tr>
+    <tr>
+      <td>05/30/2021</td>
+      <td>7925</td>
+      <td>5833</td>
+      <td>73.6%</td>
+    </tr>
+    <tr>
+      <td>06/06/2021</td>
+      <td>7925</td>
+      <td>5885</td>
+      <td>74.3%</td>
+    </tr>
+    <tr>
+      <td>06/13/2021</td>
+      <td>7925</td>
+      <td>5916</td>
+      <td>74.6%</td>
+    </tr>
+    <tr>
+      <td>06/20/2021</td>
+      <td>7925</td>
+      <td>5925</td>
+      <td>74.8%</td>
+    </tr>
+    <tr>
+      <td>06/27/2021</td>
+      <td>7689</td>
+      <td>5854</td>
+      <td>76.1%</td>
+    </tr>
+    <tr>
+      <td>07/04/2021</td>
+      <td>7689</td>
+      <td>5890</td>
+      <td>76.6%</td>
+    </tr>
+    <tr>
+      <td>07/11/2021</td>
+      <td>7689</td>
+      <td>5894</td>
+      <td>76.7%</td>
+    </tr>
+    <tr>
+      <td>07/18/2021</td>
+      <td>7689</td>
+      <td>5902</td>
+      <td>76.8%</td>
+    </tr>
+    <tr>
+      <td>07/25/2021</td>
+      <td>7689</td>
+      <td>5884</td>
+      <td>76.5%</td>
+    </tr>
+    <tr>
+      <td>08/01/2021</td>
+      <td>7561</td>
+      <td>5800</td>
+      <td>76.7%</td>
+    </tr>
+    <tr>
+      <td>08/08/2021</td>
+      <td>7504</td>
+      <td>5723</td>
+      <td>76.3%</td>
+    </tr>
+    <tr>
+      <td>08/15/2021</td>
+      <td>7561</td>
+      <td>5761</td>
+      <td>76.2%</td>
+    </tr>
+    <tr>
+      <td>08/22/2021</td>
+      <td>7561</td>
+      <td>5719</td>
+      <td>75.6%</td>
+    </tr>
+    <tr>
+      <td>08/29/2021</td>
+      <td>7689</td>
+      <td>5823</td>
+      <td>75.7%</td>
+    </tr>
+    <tr>
+      <td>09/05/2021</td>
+      <td>7689</td>
+      <td>5833</td>
+      <td>75.9%</td>
+    </tr>
+    <tr>
+      <td>09/12/2021</td>
+      <td>7577</td>
+      <td>7044</td>
+      <td>93.0%</td>
+    </tr>
+  </tbody>
+    </table>
+    <p id="source">
+        The Nursing Home COVID-19 Public File includes data reported by nursing homes to the CDC’s 
+        National Healthcare Safety Network (NHSN) system COVID-19 Long Term Care Facility Module, including Resident 
+        Impact, Facility Capacity, Staff & Personnel, and Supplies & Personal Protective Equipment, and Ventilator Capacity 
+        and Supplies Data Elements. Data source used is provided by Centers for Medicare & Medicaid Services: 
+        <a href="https://data.cms.gov/covid-19/covid-19-nursing-home-data">CMS.gov</a>.
+    </p>
+</div>
+
+    </div>
+</div>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>       
+    <script src="/covid/static/js/table.js"></script>
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-106762433-4']);
+        _gaq.push(['_trackPageview']);
+    
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</footer>
+</html>
