@@ -1,1 +1,0 @@
-import{u as o,c as s,i as a,T as c,o as r}from"./index-DyHj8jEz.js";const m={__name:"LocalContests",setup(n){const e=o(),t=e.params.id.replace("_"," ");return(l,u)=>(r(),s(c,{electionName:a(t),fileURL:a(e).params.id},null,8,["electionName","fileURL"]))}};export{m as default};
