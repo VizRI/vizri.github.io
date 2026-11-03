@@ -1,0 +1,715 @@
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "3",
+      "name": "Representative in Congress District 2",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Victor Mellor",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Seth Magaziner",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 240,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "42",
+      "name": "Senator in General Assembly District 34",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Elaine J. Morgan",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Samantha R. Wilcox",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 12,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "46",
+      "name": "Senator in General Assembly District 38",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Westin J. Place",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Victoria Gu",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 10,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "82",
+      "name": "Representative in General Assembly District 36",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Tina L. Spears",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 8,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "137",
+      "name": "Charlestown: Town Moderator",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Tony Jones",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "David M. Wilkinson",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "138",
+      "name": "Charlestown: Chariho School Committee",
+      "votes_allowed": 3,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Linda D. Lyall",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kim M. Coulter",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Nicholas Testa",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Craig F. Louzon",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Holly Eaves",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "139",
+      "name": "Charlestown: Town Council",
+      "votes_allowed": 5,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Sasha Puchalski",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Deborah A. Carney",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jill Marie Fonnemann",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Matthew Westover",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Cynthia M. Drummond",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Craig T. Marr",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Bonnita B. Van Slyke",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Stephen J. Stokes",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "140",
+      "name": "Charlestown: Non-Partisan Planning Commission",
+      "votes_allowed": 4,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Coleen M. Galvin Yaroshenko",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Ruth L. Platner",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Frances M. Topping",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gordon S. Willcox",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Laura Anne Rom",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Cheryl A. Lill",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Katherine Gingras",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "359",
+      "name": "Charlestown: 6. CONSTRUCTION, FURNISHING, AND EQUIPPING OF ELEMENTARY SCHOOL ON SINGLE CAMPUS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "360",
+      "name": "Charlestown: 7. PLANNING COMMISSION",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "361",
+      "name": "Charlestown: 8. ORDINANCES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "362",
+      "name": "Charlestown: 9. PURCHASING",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "363",
+      "name": "Charlestown: 10. CHARTER REVISIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    }
+  ]
+}

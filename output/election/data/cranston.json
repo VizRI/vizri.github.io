@@ -1,0 +1,1131 @@
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "3",
+      "name": "Representative in Congress District 2",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Victor Mellor",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Seth Magaziner",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 240,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "34",
+      "name": "Senator in General Assembly District 26",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Todd M. Patalano",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 8,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "35",
+      "name": "Senator in General Assembly District 27",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Hanna M. Gallo",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 12,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "36",
+      "name": "Senator in General Assembly District 28",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Lammis J. Vargas",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 10,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "39",
+      "name": "Senator in General Assembly District 31",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Matthew L. LaMountain",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 12,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "60",
+      "name": "Representative in General Assembly District 14",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Charlene M. Lima",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "61",
+      "name": "Representative in General Assembly District 15",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Christopher G. Paplauskas",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Allan W. Fung",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Colleen M. Crudele",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "62",
+      "name": "Representative in General Assembly District 16",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Brandon Potter",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "63",
+      "name": "Representative in General Assembly District 17",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jacquelyn Baginski",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 6,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "64",
+      "name": "Representative in General Assembly District 18",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Jessica Gomes",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Arthur Handy",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 3,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "65",
+      "name": "Representative in General Assembly District 19",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Patrick E. Maloney, Jr.",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Joseph McNamara",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "87",
+      "name": "Representative in General Assembly District 41",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Shaina N. Smith",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael J. Riley",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "88",
+      "name": "Representative in General Assembly District 42",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Richard R. Fascia",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Edward W. Stravato",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "153",
+      "name": "Cranston: City Council - City Wide",
+      "votes_allowed": 3,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Joseph V. Iannitti",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Steven A. Stycos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Richard D. Campopiano",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Justin Erickson",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Emilia Vaziri",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kristen E. Haroian",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "154",
+      "name": "Cranston: City Council Ward 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Avery Mangahas",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 3,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "155",
+      "name": "Cranston: City Council Ward 2",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Jesse Dooley",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gregory P. Charpentier",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sara Jane Haupt",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "156",
+      "name": "Cranston: City Council Ward 3",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Andy M. Andujar",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Alphonse Cardi",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "157",
+      "name": "Cranston: City Council Ward 4",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Dante A. Diwan",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Frank Ritz",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "158",
+      "name": "Cranston: City Council Ward 5",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Michael A. Traficante",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 6,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "159",
+      "name": "Cranston: City Council Ward 6",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Marcus Jason Stephenson",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Daniel Wall",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "160",
+      "name": "Cranston: Non-Partisan School Committee - City Wide",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Anthony J. Melillo",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "161",
+      "name": "Cranston: Non-Partisan School Committee Ward 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Keith C. Catone",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 3,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "162",
+      "name": "Cranston: Non-Partisan School Committee Ward 2",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Anna Medeiros",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "163",
+      "name": "Cranston: Non-Partisan School Committee Ward 3",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Pablo Grullon",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "164",
+      "name": "Cranston: Non-Partisan School Committee Ward 4",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Lauren Marchetti-Boyle",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "165",
+      "name": "Cranston: Non-Partisan School Committee Ward 5",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Andrea Soave Nadeau",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 6,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "166",
+      "name": "Cranston: Non-Partisan School Committee Ward 6",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kathryn M. Crowley",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "364",
+      "name": "Cranston: 6. STORM DRAINAGE IMPROVEMENTS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "365",
+      "name": "Cranston: 7. PUBLIC BUILDINGS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "366",
+      "name": "Cranston: 8. PLAYGROUNDS AND ATHLETIC FIELDS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "367",
+      "name": "Cranston: 9. STREETS, SIDEWALKS, AND BRIDGES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "368",
+      "name": "Cranston: 10. FIRE AND PUBLIC SAFETY EQUIPMENT",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "369",
+      "name": "Cranston: 11. SCHOOLS AND SCHOOL FACILITIES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 26,
+      "precincts_reporting": 0
+    }
+  ]
+}

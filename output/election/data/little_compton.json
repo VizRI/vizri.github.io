@@ -1,0 +1,793 @@
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "2",
+      "name": "Representative in Congress District 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Kellie Keenan",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Pedro DeSouza",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gabriel Amo",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 214,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "20",
+      "name": "Senator in General Assembly District 12",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Louis DiPalma",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 10,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "117",
+      "name": "Representative in General Assembly District 71",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Michelle E. McGaw",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "234",
+      "name": "Little Compton: Town Moderator",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "George M. Crowell",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "235",
+      "name": "Little Compton: Town Clerk",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Heather J. Cook",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "236",
+      "name": "Little Compton: Town Council",
+      "votes_allowed": 5,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Andrew W. Iriarte Moore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Salvatore A. Marinosci",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Paul J. Golembeske",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael W. Rocha, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Victoria G. Talbot",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gary S. Mataronas",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Patrick McHugh",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Travis H. Auty",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "237",
+      "name": "Little Compton: School Committee",
+      "votes_allowed": 3,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Nicholaus Carter",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Mark A. Gleicher",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Andrew L. Rhyne",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Brian Kenneth Snow",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "384",
+      "name": "Little Compton: 6. ARTICLE I INCORPORATION AND POWERS OF THE TOWN",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "385",
+      "name": "Little Compton: 7. ARTICLE II ELECTIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "386",
+      "name": "Little Compton: 8. ARTICLE III FINANCIAL PROCEDURES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "387",
+      "name": "Little Compton: 9. ARTICLE III FINANCIAL TOWN MEETING ORGANIZATION",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "388",
+      "name": "Little Compton: 10. ARTICLE IV TOWN COUNCIL",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "389",
+      "name": "Little Compton: 11. ARTICLE V FINANCIAL PROCEDURES \u2013 BUDGET COMMITTEE RESPONSIBILITIES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "390",
+      "name": "Little Compton: 12. ARTICLE V FINANCIAL PROCEDURES \u2013 TOWN FUNDS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "391",
+      "name": "Little Compton: 13. ARTICLE VI TOWN OFFICIALS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "392",
+      "name": "Little Compton: 14. ARTICLE VII BOARDS AND COMMISSIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "393",
+      "name": "Little Compton: 15. ARTICLE IX TOWN DEPARTMENTS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "394",
+      "name": "Little Compton: 16. ARTICLE X APPOINTMENTS, QUALIFICATIONS AND VACANCIES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "395",
+      "name": "Little Compton: 17. ARTICLE XI TRANSITIONAL PROVISIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    }
+  ]
+}

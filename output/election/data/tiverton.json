@@ -1,0 +1,927 @@
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "2",
+      "name": "Representative in Congress District 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Kellie Keenan",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Pedro DeSouza",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gabriel Amo",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 214,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "18",
+      "name": "Senator in General Assembly District 10",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Walter S. Felag, Jr.",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 11,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "20",
+      "name": "Senator in General Assembly District 12",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Louis DiPalma",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 10,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "116",
+      "name": "Representative in General Assembly District 70",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "John G. Edwards",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 6,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "117",
+      "name": "Representative in General Assembly District 71",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Michelle E. McGaw",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "310",
+      "name": "Tiverton: Non-Partisan Town Clerk",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Joan B. Chabot",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "311",
+      "name": "Tiverton: Non-Partisan School Committee",
+      "votes_allowed": 2,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Christopher Cureton",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Valerie M. Barbato",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Christopher M. Englert",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael F. Janick",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "312",
+      "name": "Tiverton: Judge of Probate",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Richard P. D'Addario",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "313",
+      "name": "Tiverton: Non-Partisan Town Council",
+      "votes_allowed": 7,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gary E. Monahan",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John Edwards",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "David Perry",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Burk",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Craig R. Committo",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Andrew Walsh",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Deborah G. Janick",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "David J. Paull",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John Chelo",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "V. A. Lopes",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Robert J. Jobin",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Denise M. deMedeiros",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Cheryl A. Valentine",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "314",
+      "name": "Tiverton: Non-Partisan Town Sergeant",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Kevin D. Noyes",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "315",
+      "name": "Tiverton: Non-Partisan Budget Committee",
+      "votes_allowed": 4,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "437",
+      "name": "Tiverton: 6. ARTICLE IV TOWN COUNCIL",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "438",
+      "name": "Tiverton: 7. ARTICLE VI FINANCIAL SERVICES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "439",
+      "name": "Tiverton: 8. ARTICLE VIII TOWN OFFICIALS AND OFFICES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "440",
+      "name": "Tiverton: 9. ARTICLE VIII TOWN OFFICIALS AND OFFICES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "441",
+      "name": "Tiverton: 10. ARTICLE II ELECTIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "442",
+      "name": "Tiverton: 11. ARTICLE VII BUDGET COMMITTEE",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "443",
+      "name": "Tiverton: 12. ARTICLE X BOARDS AND COMMISSIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "444",
+      "name": "Tiverton: 13. ARTICLE X BOARDS AND COMMISSIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "445",
+      "name": "Tiverton: 14. ARTICLE X BOARDS AND COMMISSIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "446",
+      "name": "Tiverton: 15. ARTICLE X BOARDS AND COMMISSIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "447",
+      "name": "Tiverton: 16. ARTICLE X BOARDS AND COMMISSIONS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "448",
+      "name": "Tiverton: 17. ARTICLE XI SCHOOL DEPARTMENT",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "449",
+      "name": "Tiverton: 18. TIVERTON HOME RULE CHARTER",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    }
+  ]
+}

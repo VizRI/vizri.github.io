@@ -1,0 +1,789 @@
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "2",
+      "name": "Representative in Congress District 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Kellie Keenan",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Pedro DeSouza",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gabriel Amo",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 214,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "25",
+      "name": "Senator in General Assembly District 17",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Thomas J. Paolino",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Nelly Burdette",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jina N. Petrarca",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John Douglas Barr, II",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 11,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "31",
+      "name": "Senator in General Assembly District 23",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Jessica de la Cruz",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 12,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "32",
+      "name": "Senator in General Assembly District 24",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Melissa Murray",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 9,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "94",
+      "name": "Representative in General Assembly District 48",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Brian C. Newberry",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "95",
+      "name": "Representative in General Assembly District 49",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Jon D. Brien",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Veronicka Vega",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 6,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "267",
+      "name": "North Smithfield: Non-Partisan Town Council",
+      "votes_allowed": 5,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Ann Fieler Lilley",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Rebecca J. DeCristofaro",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael R. Plante",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sean M. Fuller",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Elizabeth W. Newberry",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Paul Jones",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "David J. Punchak",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kevin Carriere",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "268",
+      "name": "North Smithfield: Non-Partisan School Committee",
+      "votes_allowed": 2,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gabriella Stelle",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Mark Fasano",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Teresa Bartomioli",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "397",
+      "name": "North Smithfield: 6. TOWN COUNCIL TERMS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "398",
+      "name": "North Smithfield: 7. PERSONNEL BOARD DUTIES AND RESPONSIBILITIES",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "399",
+      "name": "North Smithfield: 8. DEPARTMENT OF FACILITIES AND CAPITAL ASSETS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "400",
+      "name": "North Smithfield: 9. BOARD OF CANVASSERS AND REGISTRATION",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "401",
+      "name": "North Smithfield: 10. TERMINOLOGY CORRECTION",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "402",
+      "name": "North Smithfield: 11. ORDINANCE PUBLICATION AND ELECTRONIC NOTICE",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "403",
+      "name": "North Smithfield: 12. MUNICIPAL AUDIT REQUIREMENTS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "404",
+      "name": "North Smithfield: 13. PLANNING BOARD POWERS AND COMPREHENSIVE PLAN",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "405",
+      "name": "North Smithfield: 14. SCHOOL COMMITTEE POWERS REFERENCE",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "406",
+      "name": "North Smithfield: 15. ETHICS PROVISIONS UPDATE",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    }
+  ]
+}

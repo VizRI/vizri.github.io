@@ -1,0 +1,1 @@
+import{C as e,s as t}from"./_plugin-vue_export-helper-GJC9Hxw-.js";import{t as n}from"./index-3G4gpiMq.js";var r={__name:`House`,setup(r){return(r,i)=>(e(),t(n,{electionName:`State Represenatives`,fileURL:`state_house`}))}};export{r as default};
