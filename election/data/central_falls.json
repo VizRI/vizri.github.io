@@ -1,1 +1,651 @@
-{"election_name": "General Election", "election_date": "November 05, 2024", "last_updated": "11/06/2024 12:38 PM", "precinct_count": "8", "precincts_reporting": "8", "contests": [{"name": "Presidential Electors For:", "contest_number": "1", "precinct_count": "453", "precincts_reporting": "453", "total_votes": "503326", "votes_allowed": "1", "candidates": [{"name": "Kamala D. Harris", "party_code": "DEM", "votes": "278234", "vote_pct": 55.3}, {"name": "Donald J. Trump", "party_code": "REP", "votes": "211632", "vote_pct": 42.0}, {"name": "Robert F. Kennedy, Jr.", "party_code": "Ken", "votes": "4940", "vote_pct": 1.0}, {"name": "Jill Stein", "party_code": "Grn", "votes": "2800", "vote_pct": 0.6}, {"name": "Write-in", "party_code": "NON", "votes": "2665", "vote_pct": 0.5}, {"name": "Chase Oliver", "party_code": "Lib", "votes": "1580", "vote_pct": 0.3}, {"name": "Claudia De la Cruz", "party_code": "S&L", "votes": "1121", "vote_pct": 0.2}, {"name": "Robert \"Robby\" Wells", "party_code": "Par", "votes": "354", "vote_pct": 0.1}], "precinct_pct": 100.0}, {"name": "Senator in Congress", "contest_number": "2", "precinct_count": "414", "precincts_reporting": "414", "total_votes": "482982", "votes_allowed": "1", "candidates": [{"name": "Sheldon Whitehouse", "party_code": "DEM", "votes": "287989", "vote_pct": 59.6}, {"name": "Patricia Morgan", "party_code": "REP", "votes": "193776", "vote_pct": 40.1}, {"name": "Write-in", "party_code": "NON", "votes": "1217", "vote_pct": 0.3}], "precinct_pct": 100.0}, {"name": "Representative in Congress District 1", "contest_number": "3", "precinct_count": "195", "precincts_reporting": "195", "total_votes": "217097", "votes_allowed": "1", "candidates": [{"name": "Gabriel Amo", "party_code": "DEM", "votes": "136332", "vote_pct": 62.8}, {"name": "Allen R. Waters", "party_code": "REP", "votes": "70000", "vote_pct": 32.2}, {"name": "C. D. Reynolds", "party_code": "Ind", "votes": "10216", "vote_pct": 4.7}, {"name": "Write-in", "party_code": "NON", "votes": "549", "vote_pct": 0.3}], "precinct_pct": 100.0}, {"name": "Senator in General Assembly District 16", "contest_number": "20", "precinct_count": "9", "precincts_reporting": "9", "votes_allowed": "1", "candidates": [{"name": "Jonathon Acosta", "party_code": "DEM", "votes": "3791", "vote_pct": 96.4}, {"name": "Write-in", "party_code": "NON", "votes": "140", "vote_pct": 3.6}], "total_votes": 3931, "precinct_pct": 100.0}, {"name": "Representative in General Assembly District 56", "contest_number": "98", "precinct_count": "4", "precincts_reporting": "4", "votes_allowed": "1", "candidates": [{"name": "Joshua J. Giraldo", "party_code": "DEM", "votes": "1768", "vote_pct": 97.0}, {"name": "Write-in", "party_code": "NON", "votes": "55", "vote_pct": 3.0}], "total_votes": 1823, "precinct_pct": 100.0}, {"name": "Representative in General Assembly District 57", "contest_number": "99", "precinct_count": "5", "precincts_reporting": "5", "votes_allowed": "1", "candidates": [{"name": "Brandon T. Voas", "party_code": "DEM", "votes": "2486", "vote_pct": 53.4}, {"name": "James N. McLaughlin", "party_code": "Ind", "votes": "2152", "vote_pct": 46.2}, {"name": "Write-in", "party_code": "NON", "votes": "21", "vote_pct": 0.5}], "total_votes": 4659, "precinct_pct": 100.0}, {"name": "Representative in General Assembly District 60", "contest_number": "102", "precinct_count": "4", "precincts_reporting": "4", "votes_allowed": "1", "candidates": [{"name": "Karen Alzate", "party_code": "DEM", "votes": "2710", "vote_pct": 95.9}, {"name": "Write-in", "party_code": "NON", "votes": "115", "vote_pct": 4.1}], "total_votes": 2825, "precinct_pct": 100.0}, {"name": "Non-Partisan Mayor City of Central Falls", "contest_number": "127", "total_votes": "2823", "votes_allowed": "1", "candidates": [{"name": "L. Maria Rivera", "party_code": "NON", "votes": "2688", "vote_pct": 95.2}, {"name": "Write-in", "party_code": "NON", "votes": "135", "vote_pct": 4.8}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "Non-Partisan City Council - At Large City of Central Fal", "contest_number": "128", "total_votes": "3121", "votes_allowed": "2", "candidates": [{"name": "Tatiana Baena", "party_code": "NON", "votes": "2050", "vote_pct": 65.7}, {"name": "Laurilim Rosado Martinez", "party_code": "NON", "votes": "982", "vote_pct": 31.5}, {"name": "Write-in", "party_code": "NON", "votes": "89", "vote_pct": 2.9}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "Non-Partisan City Council Central Falls Ward 1", "contest_number": "129", "total_votes": "586", "votes_allowed": "1", "candidates": [{"name": "Alberto Rivas Lugo", "party_code": "NON", "votes": "572", "vote_pct": 97.6}, {"name": "Write-in", "party_code": "NON", "votes": "14", "vote_pct": 2.4}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "Non-Partisan City Council Central Falls Ward 2", "contest_number": "130", "total_votes": "575", "votes_allowed": "1", "candidates": [{"name": "Robert A. Ferri", "party_code": "NON", "votes": "547", "vote_pct": 95.1}, {"name": "Write-in", "party_code": "NON", "votes": "28", "vote_pct": 4.9}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "Non-Partisan City Council Central Falls Ward 3", "contest_number": "131", "total_votes": "413", "votes_allowed": "1", "candidates": [{"name": "Kevin K. Kazarian", "party_code": "NON", "votes": "398", "vote_pct": 96.4}, {"name": "Write-in", "party_code": "NON", "votes": "15", "vote_pct": 3.6}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "Non-Partisan City Council Central Falls Ward 4", "contest_number": "132", "total_votes": "453", "votes_allowed": "1", "candidates": [{"name": "Luz Eneida Velez Garcia", "party_code": "NON", "votes": "440", "vote_pct": 97.1}, {"name": "Write-in", "party_code": "NON", "votes": "13", "vote_pct": 2.9}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "Non-Partisan City Council Central Falls Ward 5", "contest_number": "133", "total_votes": "539", "votes_allowed": "1", "candidates": [{"name": "Rafael Peguero", "party_code": "NON", "votes": "520", "vote_pct": 96.5}, {"name": "Write-in", "party_code": "NON", "votes": "19", "vote_pct": 3.5}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}, {"name": "1. CONSTITUTIONAL CONVENTION", "contest_number": "328", "precinct_count": "414", "precincts_reporting": "414", "total_votes": "454289", "votes_allowed": "1", "candidates": [{"name": "Reject", "party_code": "REJ", "votes": "283771", "vote_pct": 62.5}, {"name": "Approve", "party_code": "APP", "votes": "170518", "vote_pct": 37.5}], "precinct_pct": 100.0}, {"name": "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number": "329", "precinct_count": "414", "precincts_reporting": "414", "total_votes": "463537", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "276650", "vote_pct": 59.7}, {"name": "Reject", "party_code": "REJ", "votes": "186887", "vote_pct": 40.3}], "precinct_pct": 100.0}, {"name": "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number": "330", "precinct_count": "414", "precincts_reporting": "413", "total_votes": "462176", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "303321", "vote_pct": 65.6}, {"name": "Reject", "party_code": "REJ", "votes": "158855", "vote_pct": 34.4}], "precinct_pct": 99.8}, {"name": "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number": "331", "precinct_count": "414", "precincts_reporting": "413", "total_votes": "461281", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "310430", "vote_pct": 67.3}, {"name": "Reject", "party_code": "REJ", "votes": "150851", "vote_pct": 32.7}], "precinct_pct": 99.8}, {"name": "5. CULTURAL ARTS AND THE ECONOMY GRANT PROGRAM - $10,000", "contest_number": "332", "precinct_count": "414", "precincts_reporting": "413", "total_votes": "460078", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "258625", "vote_pct": 56.2}, {"name": "Reject", "party_code": "REJ", "votes": "201453", "vote_pct": 43.8}], "precinct_pct": 99.8}, {"name": "6. SCHOOLS AND SCHOOL FACILITIES City of Central Falls", "contest_number": "338", "total_votes": "3175", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "2856", "vote_pct": 90.0}, {"name": "Reject", "party_code": "REJ", "votes": "319", "vote_pct": 10.0}], "precinct_count": "8", "precincts_reporting": "8", "precinct_pct": 100.0}]}
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "2",
+      "name": "Representative in Congress District 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Kellie Keenan",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Pedro DeSouza",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Gabriel Amo",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 214,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "24",
+      "name": "Senator in General Assembly District 16",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jonathon Acosta",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 9,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "102",
+      "name": "Representative in General Assembly District 56",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Joshua J. Giraldo",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "103",
+      "name": "Representative in General Assembly District 57",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Brandon T. Voas",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 5,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "106",
+      "name": "Representative in General Assembly District 60",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Karen Alzate",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 4,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "131",
+      "name": "Central Falls: Non-Partisan City Council At-Large",
+      "votes_allowed": 2,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Tatiana Baena",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Alberto Rivas-Lugo",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "132",
+      "name": "Central Falls: Non-Partisan City Council Ward 1",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Laurilim Rosado Martinez",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "133",
+      "name": "Central Falls: Non-Partisan City Council Ward 2",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Jackeline Parra",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 2,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "134",
+      "name": "Central Falls: Non-Partisan City Council Ward 3",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kevin Kazarian",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "135",
+      "name": "Central Falls: Non-Partisan City Council Ward 4",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Franklin Solano",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 1,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "136",
+      "name": "Central Falls: Non-Partisan City Council Ward 5",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Rafael Peguero",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 2,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "355",
+      "name": "Central Falls: 6. MAYORAL TERM LIMITS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "356",
+      "name": "Central Falls: 7. CITY COUNCIL TERM LIMITS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "357",
+      "name": "Central Falls: 8. COMPLIANCE WITH ETHICS LAWS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "358",
+      "name": "Central Falls: 9. APPOINTMENT OF POLICE AND FIRE CHIEFS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 7,
+      "precincts_reporting": 0
+    }
+  ]
+}

@@ -1,1 +1,501 @@
-{"election_name": "General Election", "election_date": "November 05, 2024", "last_updated": "11/06/2024 12:38 PM", "precinct_count": "4", "precincts_reporting": "4", "contests": [{"name": "Presidential Electors For:", "contest_number": "1", "precinct_count": "453", "precincts_reporting": "453", "total_votes": "503326", "votes_allowed": "1", "candidates": [{"name": "Kamala D. Harris", "party_code": "DEM", "votes": "278234", "vote_pct": 55.3}, {"name": "Donald J. Trump", "party_code": "REP", "votes": "211632", "vote_pct": 42.0}, {"name": "Robert F. Kennedy, Jr.", "party_code": "Ken", "votes": "4940", "vote_pct": 1.0}, {"name": "Jill Stein", "party_code": "Grn", "votes": "2800", "vote_pct": 0.6}, {"name": "Write-in", "party_code": "NON", "votes": "2665", "vote_pct": 0.5}, {"name": "Chase Oliver", "party_code": "Lib", "votes": "1580", "vote_pct": 0.3}, {"name": "Claudia De la Cruz", "party_code": "S&L", "votes": "1121", "vote_pct": 0.2}, {"name": "Robert \"Robby\" Wells", "party_code": "Par", "votes": "354", "vote_pct": 0.1}], "precinct_pct": 100.0}, {"name": "Senator in Congress", "contest_number": "2", "precinct_count": "414", "precincts_reporting": "414", "total_votes": "482982", "votes_allowed": "1", "candidates": [{"name": "Sheldon Whitehouse", "party_code": "DEM", "votes": "287989", "vote_pct": 59.6}, {"name": "Patricia Morgan", "party_code": "REP", "votes": "193776", "vote_pct": 40.1}, {"name": "Write-in", "party_code": "NON", "votes": "1217", "vote_pct": 0.3}], "precinct_pct": 100.0}, {"name": "Representative in Congress District 2", "contest_number": "4", "precinct_count": "219", "precincts_reporting": "219", "total_votes": "258623", "votes_allowed": "1", "candidates": [{"name": "Seth Magaziner", "party_code": "DEM", "votes": "149854", "vote_pct": 57.9}, {"name": "Steven Corvi", "party_code": "REP", "votes": "108123", "vote_pct": 41.8}, {"name": "Write-in", "party_code": "NON", "votes": "646", "vote_pct": 0.2}], "precinct_pct": 100.0}, {"name": "Senator in General Assembly District 34", "contest_number": "38", "precinct_count": "12", "precincts_reporting": "12", "votes_allowed": "1", "candidates": [{"name": "Elaine J. Morgan", "party_code": "REP", "votes": "8934", "vote_pct": 53.8}, {"name": "Stephen Moffitt", "party_code": "DEM", "votes": "7660", "vote_pct": 46.1}, {"name": "Write-in", "party_code": "NON", "votes": "23", "vote_pct": 0.1}], "total_votes": 16617, "precinct_pct": 100.0}, {"name": "Representative in General Assembly District 39", "contest_number": "81", "precinct_count": "6", "precincts_reporting": "6", "votes_allowed": "1", "candidates": [{"name": "Megan L. Cotter", "party_code": "DEM", "votes": "4582", "vote_pct": 53.8}, {"name": "Justin K. Price", "party_code": "REP", "votes": "3923", "vote_pct": 46.1}, {"name": "Write-in", "party_code": "NON", "votes": "7", "vote_pct": 0.1}], "total_votes": 8512, "precinct_pct": 100.0}, {"name": "Town Council TOWN OF RICHMOND", "contest_number": "280", "total_votes": "19743", "votes_allowed": "5", "candidates": [{"name": "Samantha R. Wilcox", "party_code": "DEM", "votes": "2474", "vote_pct": 12.5}, {"name": "Mark T. Reynolds", "party_code": "DEM", "votes": "2186", "vote_pct": 11.1}, {"name": "James Palmisciano", "party_code": "DEM", "votes": "2176", "vote_pct": 11.0}, {"name": "Daniel E. Madnick", "party_code": "DEM", "votes": "1997", "vote_pct": 10.1}, {"name": "Jeffrey L. Dinsmore", "party_code": "REP", "votes": "1955", "vote_pct": 9.9}, {"name": "Michael A. Colasante", "party_code": "REP", "votes": "1882", "vote_pct": 9.5}, {"name": "Nell Carpenter", "party_code": "REP", "votes": "1843", "vote_pct": 9.3}, {"name": "Roger St. Onge", "party_code": "REP", "votes": "1760", "vote_pct": 8.9}, {"name": "Mark H. Trimmer", "party_code": "Ind", "votes": "1734", "vote_pct": 8.8}, {"name": "Thomas J. Marron", "party_code": "REP", "votes": "1708", "vote_pct": 8.7}, {"name": "Write-in", "party_code": "NON", "votes": "28", "vote_pct": 0.1}], "precinct_count": "4", "precincts_reporting": "4", "precinct_pct": 100.0}, {"name": "Chariho School Committee Town of Richmond", "contest_number": "281", "total_votes": "8576", "votes_allowed": "2", "candidates": [{"name": "Jessica M. Purcell", "party_code": "DEM", "votes": "2295", "vote_pct": 26.8}, {"name": "Karen J. Reynolds", "party_code": "DEM", "votes": "2107", "vote_pct": 24.6}, {"name": "Louise D. Dinsmore", "party_code": "REP", "votes": "2093", "vote_pct": 24.4}, {"name": "Clay Johnson", "party_code": "REP", "votes": "2074", "vote_pct": 24.2}, {"name": "Write-in", "party_code": "NON", "votes": "7", "vote_pct": 0.1}], "precinct_count": "4", "precincts_reporting": "4", "precinct_pct": 100.0}, {"name": "1. CONSTITUTIONAL CONVENTION", "contest_number": "328", "precinct_count": "414", "precincts_reporting": "414", "total_votes": "454289", "votes_allowed": "1", "candidates": [{"name": "Reject", "party_code": "REJ", "votes": "283771", "vote_pct": 62.5}, {"name": "Approve", "party_code": "APP", "votes": "170518", "vote_pct": 37.5}], "precinct_pct": 100.0}, {"name": "2. HIGHER EDUCATION FACILITIES - $160,500,000", "contest_number": "329", "precinct_count": "414", "precincts_reporting": "414", "total_votes": "463537", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "276650", "vote_pct": 59.7}, {"name": "Reject", "party_code": "REJ", "votes": "186887", "vote_pct": 40.3}], "precinct_pct": 100.0}, {"name": "3. HOUSING AND COMMUNITY OPPORTUNITY - $120,000,000", "contest_number": "330", "precinct_count": "414", "precincts_reporting": "413", "total_votes": "462176", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "303321", "vote_pct": 65.6}, {"name": "Reject", "party_code": "REJ", "votes": "158855", "vote_pct": 34.4}], "precinct_pct": 99.8}, {"name": "4. GREEN ECONOMY BONDS - $53,000,000", "contest_number": "331", "precinct_count": "414", "precincts_reporting": "413", "total_votes": "461281", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "310430", "vote_pct": 67.3}, {"name": "Reject", "party_code": "REJ", "votes": "150851", "vote_pct": 32.7}], "precinct_pct": 99.8}, {"name": "5. CULTURAL ARTS AND THE ECONOMY GRANT PROGRAM - $10,000", "contest_number": "332", "precinct_count": "414", "precincts_reporting": "413", "total_votes": "460078", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "258625", "vote_pct": 56.2}, {"name": "Reject", "party_code": "REJ", "votes": "201453", "vote_pct": 43.8}], "precinct_pct": 99.8}, {"name": "6. SWITCH RD CAMPUS UPGRADES - $15,000,000", "contest_number": "420", "total_votes": "4609", "votes_allowed": "1", "candidates": [{"name": "Approve", "party_code": "APP", "votes": "2541", "vote_pct": 55.1}, {"name": "Reject", "party_code": "REJ", "votes": "2068", "vote_pct": 44.9}], "precinct_count": "4", "precincts_reporting": "4", "precinct_pct": 100.0}]}
+{
+  "election_name": "2026 Statewide Primary",
+  "election_date": "September 09, 2026",
+  "last_updated": "9/10/2026 06:37 AM",
+  "contests": [
+    {
+      "contest_number": "1",
+      "name": "Senator in Congress",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John F. Reed",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Raymond T. McKay",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Michael Bahry",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "3",
+      "name": "Representative in Congress District 2",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Victor Mellor",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Seth Magaziner",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 240,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "4",
+      "name": "Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Jasjit S. Gotra",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "C. D. Reynolds",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kenneth Block",
+          "party_code": "IND",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Helena Buonanno Foulkes",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Aaron C. Guckian",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "5",
+      "name": "Lieutenant Governor",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Sabina Matos",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "John J. Loughlin, II",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "6",
+      "name": "Secretary of State",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Gregg M. Amore",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "7",
+      "name": "Attorney General",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Alan Leonard Gordon",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Kimberly Ahern",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "8",
+      "name": "General Treasurer",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Micholas A. Credle",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James A. Diossa",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "42",
+      "name": "Senator in General Assembly District 34",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Elaine J. Morgan",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Samantha R. Wilcox",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 12,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "85",
+      "name": "Representative in General Assembly District 39",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Jasmin Roy",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Megan L. Cotter",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 6,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "296",
+      "name": "Richmond: Town Council",
+      "votes_allowed": 5,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Norbert L. Morin",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "James Palmisciano",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Justin K. Price",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Paul Erdos",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Douglas Deslauriers",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Daniel E. Madnick",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Mark T. Reynolds",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 3,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "297",
+      "name": "Richmond: Chariho School Committee",
+      "votes_allowed": 2,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Andrew A. McCoy",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "David Lelli",
+          "party_code": "REP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Patrick Farrell",
+          "party_code": "DEM",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Write-in",
+          "party_code": "NON",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 3,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "346",
+      "name": "1. HIGHER EDUCATION FACILITIES - $275,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "347",
+      "name": "2. HOUSING AND HOMEOWNERSHIP - $120,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "348",
+      "name": "3. ECONOMIC DEVELOPMENT - $100,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "349",
+      "name": "4. CULTURAL ECONOMY - $50,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "350",
+      "name": "5. GREEN ECONOMY BONDS - $55,000,000",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 454,
+      "precincts_reporting": 0
+    },
+    {
+      "contest_number": "418",
+      "name": "Richmond: 6. CONSTRUCTION, FURNISHING, AND EQUIPPING OF ELEMENTARY SCHOOL ON SINGLE CAMPUS",
+      "votes_allowed": 1,
+      "total_votes": 0,
+      "candidates": [
+        {
+          "name": "Approve",
+          "party_code": "APP",
+          "votes": 0,
+          "vote_pct": 0.0
+        },
+        {
+          "name": "Reject",
+          "party_code": "REJ",
+          "votes": 0,
+          "vote_pct": 0.0
+        }
+      ],
+      "precinct_count": 3,
+      "precincts_reporting": 0
+    }
+  ]
+}
