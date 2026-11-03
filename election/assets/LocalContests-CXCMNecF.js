@@ -1,1 +1,0 @@
-import{C as e,U as t,s as n}from"./_plugin-vue_export-helper-GJC9Hxw-.js";import{o as r,t as i}from"./index-DqodgQko.js";var a={__name:`LocalContests`,setup(a){let o=r(),s=o.params.id.replace(`_`,` `);return(r,a)=>(e(),n(i,{electionName:t(s),fileURL:t(o).params.id},null,8,[`electionName`,`fileURL`]))}};export{a as default};

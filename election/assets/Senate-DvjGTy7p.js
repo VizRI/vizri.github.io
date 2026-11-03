@@ -1,1 +1,0 @@
-import{C as e,s as t}from"./_plugin-vue_export-helper-GJC9Hxw-.js";import{t as n}from"./index-DqodgQko.js";var r={__name:`Senate`,setup(r){return(r,i)=>(e(),t(n,{electionName:`State Senators`,fileURL:`state_senate`}))}};export{r as default};
